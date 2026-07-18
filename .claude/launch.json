@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "storybook-cluster",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["run", "storybook", "--filter=cluster"],
+      "port": 6001
+    }
+  ]
+}
