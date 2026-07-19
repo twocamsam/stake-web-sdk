@@ -32,3 +32,11 @@
 		<SpineTrack trackIndex={0} animationName={'dust'} loop />
 	</SpineProvider>
 </FadeContainer>
+
+<!-- Bloodcount gothic re-theme: cheap placeholder darkening tint over the borrowed mining background, not final art -->
+<Rectangle
+	{...context.stateLayoutDerived.canvasSizes()}
+	backgroundColor={0x1a0005}
+	backgroundAlpha={0.45}
+	zIndex={-0.5}
+/>

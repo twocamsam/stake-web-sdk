@@ -6,7 +6,7 @@ export const SYMBOL_SIZE = 80;
 
 export const REEL_PADDING = 0.53;
 
-// initial board (padded top and bottom)
+// initial board (padded top and bottom): 6 reels x 7 data rows (5 visible + 1 padding row top/bottom)
 export const INITIAL_BOARD: RawSymbol[][] = [
 	[
 		{
@@ -30,12 +30,6 @@ export const INITIAL_BOARD: RawSymbol[][] = [
 		{
 			name: 'L2',
 		},
-		{
-			name: 'L3',
-		},
-		{
-			name: 'H3',
-		},
 	],
 	[
 		{
@@ -58,12 +52,6 @@ export const INITIAL_BOARD: RawSymbol[][] = [
 		},
 		{
 			name: 'L2',
-		},
-		{
-			name: 'L2',
-		},
-		{
-			name: 'H2',
 		},
 	],
 	[
@@ -88,12 +76,6 @@ export const INITIAL_BOARD: RawSymbol[][] = [
 		{
 			name: 'H4',
 		},
-		{
-			name: 'H4',
-		},
-		{
-			name: 'H2',
-		},
 	],
 	[
 		{
@@ -116,12 +98,6 @@ export const INITIAL_BOARD: RawSymbol[][] = [
 		},
 		{
 			name: 'H2',
-		},
-		{
-			name: 'L3',
-		},
-		{
-			name: 'L3',
 		},
 	],
 	[
@@ -146,12 +122,6 @@ export const INITIAL_BOARD: RawSymbol[][] = [
 		{
 			name: 'L2',
 		},
-		{
-			name: 'L3',
-		},
-		{
-			name: 'L3',
-		},
 	],
 	[
 		{
@@ -171,41 +141,6 @@ export const INITIAL_BOARD: RawSymbol[][] = [
 		},
 		{
 			name: 'H4',
-		},
-		{
-			name: 'H2',
-		},
-		{
-			name: 'H3',
-		},
-		{
-			name: 'H2',
-		},
-	],
-	[
-		{
-			name: 'L3',
-		},
-		{
-			name: 'L3',
-		},
-		{
-			name: 'L3',
-		},
-		{
-			name: 'H3',
-		},
-		{
-			name: 'H1',
-		},
-		{
-			name: 'L3',
-		},
-		{
-			name: 'H3',
-		},
-		{
-			name: 'H3',
 		},
 		{
 			name: 'H2',
@@ -239,7 +174,7 @@ export const PORTRAIT_MAIN_SIZES = {
 	height: PORTRAIT_HEIGHT,
 };
 
-export const HIGH_SYMBOLS = ['H1', 'H2', 'H3', 'H4', 'H5'];
+export const HIGH_SYMBOLS = ['H1', 'H2', 'H3', 'H4', 'H5', 'VLORD', 'PRIEST', 'GUARD', 'SMITH', 'FARMER'];
 
 export const INITIAL_SYMBOL_STATE: SymbolState = 'static';
 
@@ -472,6 +407,141 @@ export const SYMBOL_INFO_MAP = {
 		land: {
 			type: 'spine',
 			assetKey: 'S',
+			animationName: 'scatter_land',
+			sizeRatios: sSizeRatios,
+		},
+	},
+	VLORD: {
+		explosion,
+		win: {
+			type: 'spine',
+			assetKey: 'VLORD',
+			animationName: 'h1',
+			sizeRatios: { width: 0.5 * 1.15, height: HIGH_SYMBOL_SIZE * 0.57 },
+		},
+		postWinStatic: h1Static,
+		static: h1Static,
+		spin: h1Static,
+		land: h1Static,
+	},
+	PRIEST: {
+		explosion,
+		win: {
+			type: 'spine',
+			assetKey: 'PRIEST',
+			animationName: 'h2',
+			sizeRatios: { width: 0.5, height: HIGH_SYMBOL_SIZE * 0.57 },
+		},
+		postWinStatic: h2Static,
+		static: h2Static,
+		spin: h2Static,
+		land: h2Static,
+	},
+	GUARD: {
+		explosion,
+		win: {
+			type: 'spine',
+			assetKey: 'GUARD',
+			animationName: 'h3',
+			sizeRatios: { width: 0.5 * 0.9, height: HIGH_SYMBOL_SIZE * 0.53 },
+		},
+		postWinStatic: h3Static,
+		static: h3Static,
+		spin: h3Static,
+		land: h3Static,
+	},
+	SMITH: {
+		explosion,
+		win: {
+			type: 'spine',
+			assetKey: 'SMITH',
+			animationName: 'h4',
+			sizeRatios: { width: 0.5 * 0.9, height: HIGH_SYMBOL_SIZE * 0.53 },
+		},
+		postWinStatic: h4Static,
+		static: h4Static,
+		spin: h4Static,
+		land: h4Static,
+	},
+	FARMER: {
+		explosion,
+		win: {
+			type: 'spine',
+			assetKey: 'FARMER',
+			animationName: 'h5',
+			sizeRatios: { width: 0.5 * 0.9, height: HIGH_SYMBOL_SIZE * 0.53 },
+		},
+		postWinStatic: h5Static,
+		static: h5Static,
+		spin: h5Static,
+		land: h5Static,
+	},
+	BAKER: {
+		explosion,
+		win: {
+			type: 'spine',
+			assetKey: 'BAKER',
+			animationName: 'l1',
+			sizeRatios: { width: 0.5 * 0.75, height: LOW_SYMBOL_SIZE * 0.65 },
+		},
+		postWinStatic: l1Static,
+		static: l1Static,
+		spin: l1Static,
+		land: l1Static,
+	},
+	MILLER: {
+		explosion,
+		win: {
+			type: 'spine',
+			assetKey: 'MILLER',
+			animationName: 'l2',
+			sizeRatios: { width: 0.5 * 0.75, height: LOW_SYMBOL_SIZE * 0.65 },
+		},
+		postWinStatic: l2Static,
+		static: l2Static,
+		spin: l2Static,
+		land: l2Static,
+	},
+	STRAW: {
+		explosion,
+		win: {
+			type: 'spine',
+			assetKey: 'STRAW',
+			animationName: 'l3',
+			sizeRatios: { width: 0.5 * 0.75, height: LOW_SYMBOL_SIZE * 0.63 },
+		},
+		postWinStatic: l3Static,
+		static: l3Static,
+		spin: l3Static,
+		land: l3Static,
+	},
+	CART: {
+		explosion,
+		win: {
+			type: 'spine',
+			assetKey: 'CART',
+			animationName: 'l4',
+			sizeRatios: { width: 0.5 * 0.75, height: LOW_SYMBOL_SIZE * 0.63 },
+		},
+		postWinStatic: l4Static,
+		static: l4Static,
+		spin: l4Static,
+		land: l4Static,
+	},
+	MOON: {
+		explosion,
+		postWinStatic: sStatic,
+		static: sStatic,
+		spin: {
+			type: 'spine',
+			assetKey: 'MOON',
+			animationName: 'scatter_spin',
+			sizeRatios: sSizeRatios,
+		},
+		win: { type: 'spine', assetKey: 'MOON', animationName: 'scatter_win', sizeRatios: sSizeRatios },
+		land: {
+			type: 'spine',
+			assetKey: 'MOON',
 			animationName: 'scatter_land',
 			sizeRatios: sSizeRatios,
 		},

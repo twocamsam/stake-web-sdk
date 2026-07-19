@@ -1,7 +1,18 @@
 import { type CascadingReelSymbolState } from 'utils-slots';
 import type config from './config';
 
-export type SymbolName = keyof typeof config.symbols;
+export type SymbolName =
+	| keyof typeof config.symbols
+	| 'VLORD'
+	| 'PRIEST'
+	| 'GUARD'
+	| 'SMITH'
+	| 'FARMER'
+	| 'BAKER'
+	| 'MILLER'
+	| 'STRAW'
+	| 'CART'
+	| 'MOON';
 export type RawSymbol = { name: SymbolName; multiplier?: number; scatter?: boolean };
 export type BetMode = keyof typeof config.betModes;
 export type GameType = keyof typeof config.paddingReels;

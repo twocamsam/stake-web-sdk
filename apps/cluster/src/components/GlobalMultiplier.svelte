@@ -11,6 +11,7 @@
 	import {
 		BitmapText,
 		Container,
+		Rectangle,
 		SpineEventEmitterProvider,
 		SpineProvider,
 		SpineSlot,
@@ -27,8 +28,13 @@
 	type AnimationName = 'static' | 'win' | 'reset' | 'increment';
 
 	const PANEL_WIDTH = SYMBOL_SIZE * 0.641;
+	const GOTHIC_RED = 0xc41e3a;
+	// prominence during freegame: scaled up a bit larger than the base mining-theme sizing
+	const PROMINENCE_SCALE = 1.2;
 	const context = getContext();
-	const scale = $derived(context.stateLayoutDerived.isStacked() ? 1.28 : 1);
+	const scale = $derived(
+		(context.stateLayoutDerived.isStacked() ? 1.28 : 1) * PROMINENCE_SCALE,
+	);
 	const desktopPosition = $derived({
 		x: context.stateGameDerived.boardLayout().width - PANEL_WIDTH * 1.3,
 		y: -SYMBOL_SIZE * 0.47,
@@ -76,6 +82,19 @@
 <FadeContainer {show}>
 	<BoardContainer>
 		<Container {...position} {scale}>
+			<Rectangle
+				anchor={{ x: 0.5, y: 0.5 }}
+				x={PANEL_WIDTH * 0.5}
+				y={PANEL_WIDTH * 0.5}
+				width={PANEL_WIDTH * 1.6}
+				height={PANEL_WIDTH * 1.6}
+				borderRadius={PANEL_WIDTH * 0.5}
+				backgroundColor={GOTHIC_RED}
+				backgroundAlpha={0.28}
+				borderColor={GOTHIC_RED}
+				borderWidth={3}
+				borderAlpha={0.6}
+			/>
 			<SpineProvider key="globalMultiplier" width={PANEL_WIDTH}>
 				<SpineTrack
 					trackIndex={0}

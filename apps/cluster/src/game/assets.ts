@@ -101,6 +101,136 @@ export default {
 			scale: 2,
 		},
 	},
+	// ============================================================================
+	// BLOODCOUNT symbol slots — placeholder art, borrowed from the mining theme
+	// ============================================================================
+	// The 10 entries below are the real Bloodcount symbols (5 high, 4 low, 1 scatter).
+	// Each currently borrows another symbol's spine skeleton wholesale (same atlas +
+	// skeleton URL as its source, just registered under this new key) purely so the
+	// game has *something* to render before final art exists.
+	//
+	// Borrow map (symbol -> source, same skeleton reused as-is):
+	//   VLORD  -> H1 (h1.json)   PRIEST -> H2 (h2.json)   GUARD -> H3 (h3.json)
+	//   SMITH  -> H4 (h4.json)   FARMER -> H5 (h5.json)
+	//   BAKER  -> L1 (l1.json)   MILLER -> L2 (l2.json)   STRAW -> L3 (l3.json)
+	//   CART   -> L4 (l4.json)
+	//   MOON   -> S  (S.json, the scatter)
+	//
+	// TO SWAP IN REAL ART: change only the `atlas`/`skeleton` (or `src`, for a plain
+	// sprite) values below for the symbol being replaced — the key name, and every
+	// reference to it in constants.ts's SYMBOL_INFO_MAP, stays the same.
+	//
+	// Expected format per symbol:
+	//   - Spine (current format): `{ type: 'spine', src: { atlas, skeleton, scale } }`.
+	//     The skeleton needs an animation matching whatever `animationName` the
+	//     symbol's SYMBOL_INFO_MAP entry asks for per state (currently: the win
+	//     animation reuses its borrowed source's name, e.g. VLORD plays 'h1'; MOON
+	//     plays 'scatter_spin'/'scatter_win'/'scatter_land'; 'explosion' is shared
+	//     by everyone and does not need to change).
+	//   - Static sprite (also supported): Symbol.svelte picks a <SymbolSprite> or
+	//     <SymbolSpine> purely based on whether SYMBOL_INFO_MAP's entry for that
+	//     state is `{ type: 'sprite', assetKey, sizeRatios }` or `{ type: 'spine',
+	//     ... }`. H/L-type static/spin/land frames are already sprites today (see
+	//     h1Static..l4Static in constants.ts, sourced from the shared
+	//     `symbolsStatic` sprite sheet below) — real art for those three states can
+	//     just be new frames added to that same sprite sheet, no assets.ts change
+	//     needed. Only `win`/`explosion` (and, for MOON, `spin`/`land` too, since it
+	//     mirrors the scatter) are real spine tracks that live here.
+	//
+	// AVOIDING THE DUPLICATE-KEY ATLAS HAZARD: during the book-event stall
+	// investigation we found `assetLoad.ts`'s spine loader re-parses
+	// `readSkeletonData()` separately for every manifest key, even when two keys
+	// point at the identical atlas+skeleton URLs (as all 10 entries below do today,
+	// borrowing H1-H5/L1-L4/S's files verbatim). That was ruled out as the cause of
+	// the specific stall we chased, but it's still an unnecessary shared-atlas
+	// re-parse with no real benefit. When repointing a symbol to real art, give it
+	// its OWN dedicated atlas + skeleton file pair (a unique URL, not shared with
+	// any other registered key) rather than pointing two keys at the same file —
+	// that sidesteps the hazard entirely rather than relying on it happening to be
+	// harmless.
+	VLORD: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols/h1.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	PRIEST: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols/h2.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	GUARD: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols/h3.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	SMITH: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols/h4.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	FARMER: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols/h5.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	BAKER: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols/l1.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	MILLER: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols/l2.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	STRAW: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols/l3.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	CART: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols/l4.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	MOON: {
+		type: 'spine',
+		src: {
+			atlas: new URL('../../assets/spines/symbols2/symbols2.atlas', import.meta.url).href,
+			skeleton: new URL('../../assets/spines/symbols2/S.json', import.meta.url).href,
+			scale: 2,
+		},
+	},
+	// ============================================================================
+	// end BLOODCOUNT symbol slots
+	// ============================================================================
 	explosion: {
 		type: 'spine',
 		src: {

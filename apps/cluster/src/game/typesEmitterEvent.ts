@@ -7,10 +7,12 @@ import type { EmitterEventGlobalMultiplier } from '../components/GlobalMultiplie
 import type { EmitterEventFreeSpinIntro } from '../components/FreeSpinIntro.svelte';
 import type { EmitterEventFreeSpinCounter } from '../components/FreeSpinCounter.svelte';
 import type { EmitterEventFreeSpinOutro } from '../components/FreeSpinOutro.svelte';
+import type { EmitterEventLevelUpBanner } from '../components/LevelUpBanner.svelte';
 import type { EmitterEventWin } from '../components/Win.svelte';
 import type { EmitterEventSound } from '../components/Sound.svelte';
 import type { EmitterEventMultiplierGrid } from '../components/MultiplierGrid.svelte';
 import type { EmitterEventTransition } from '../components/Transition.svelte';
+import type { EmitterEventKillCounter } from '../components/KillCounter.svelte';
 
 export type EmitterEventGame =
 	| EmitterEventBoard
@@ -22,7 +24,9 @@ export type EmitterEventGame =
 	| EmitterEventWin
 	| EmitterEventFreeSpinIntro
 	| EmitterEventFreeSpinCounter
+	| EmitterEventKillCounter
 	| EmitterEventFreeSpinOutro
+	| EmitterEventLevelUpBanner
 	| EmitterEventSound
 	| EmitterEventMultiplierGrid
 	| EmitterEventTransition;

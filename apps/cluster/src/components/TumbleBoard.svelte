@@ -82,8 +82,16 @@
 			context.stateGame.tumbleBoardBase = [];
 		},
 		tumbleBoardExplode: async ({ explodingPositions }) => {
+			// dedupe: overlapping clusters can list the same cell more than once, and since
+			// each cell has a single `oncomplete` slot, mapping duplicates 1:1 to promises
+			// would let a later duplicate's resolver silently clobber an earlier one,
+			// leaving that earlier promise (and the whole Promise.all) unresolved forever.
+			const uniquePositions = _.uniqBy(
+				explodingPositions,
+				(position) => `${position.reel}-${position.row}`,
+			);
 			const getPromises = () =>
-				explodingPositions.map(async (position) => {
+				uniquePositions.map(async (position) => {
 					const tumbleSymbol = context.stateGame.tumbleBoardBase[position.reel][position.row];
 					tumbleSymbol.symbolState = 'explosion';
 					await waitForResolve((resolve) => (tumbleSymbol.oncomplete = resolve));

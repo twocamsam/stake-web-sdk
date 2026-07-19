@@ -28,9 +28,10 @@
 	import Win from './Win.svelte';
 	import FreeSpinIntro from './FreeSpinIntro.svelte';
 	import FreeSpinCounter from './FreeSpinCounter.svelte';
+	import KillCounter from './KillCounter.svelte';
+	import LevelUpBanner from './LevelUpBanner.svelte';
 	import FreeSpinOutro from './FreeSpinOutro.svelte';
 	import Transition from './Transition.svelte';
-	import I18nTest from './I18nTest.svelte';
 
 	const context = getContext();
 
@@ -89,13 +90,14 @@
 			{#snippet logo()}
 				<Text
 					anchor={{ x: 1, y: 0 }}
-					text="ADD YOUR LOGO"
+					text="BLOODCOUNT"
 					style={{
 						fontFamily: 'proxima-nova',
 						fontSize: REM * 1.5,
-						fontWeight: '600',
+						fontWeight: '700',
+						letterSpacing: 2,
 						lineHeight: REM * 2,
-						fill: 0xffffff,
+						fill: 0xc41e3a,
 					}}
 				/>
 			{/snippet}
@@ -104,11 +106,11 @@
 		<FreeSpinIntro />
 		{#if ['desktop', 'landscape'].includes(context.stateLayoutDerived.layoutType())}
 			<FreeSpinCounter />
+			<KillCounter />
 		{/if}
+		<LevelUpBanner />
 		<FreeSpinOutro />
 		<Transition />
-
-		<I18nTest />
 	{/if}
 </App>
 

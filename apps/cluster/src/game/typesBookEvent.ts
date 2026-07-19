@@ -101,6 +101,22 @@ type BookEventFreeSpinRetrigger = {
 	positions: Position[];
 };
 
+type BookEventVampireKillUpdate = {
+	index: number;
+	type: 'vampireKillUpdate';
+	killsAdded: number;
+	totalKills: number;
+};
+
+type BookEventVampireLevelUp = {
+	index: number;
+	type: 'vampireLevelUp';
+	level: number;
+	eliminatedSymbol: string;
+	freeSpinsAwarded: number;
+};
+
+
 // customised
 type BookEventCreateBonusSnapshot = {
 	index: number;
@@ -124,6 +140,8 @@ export type BookEvent =
 	// new
 	| BookEventUpdateGrid
 	| BookEventFreeSpinRetrigger
+	| BookEventVampireKillUpdate
+	| BookEventVampireLevelUp
 	// customised
 	| BookEventCreateBonusSnapshot;
 

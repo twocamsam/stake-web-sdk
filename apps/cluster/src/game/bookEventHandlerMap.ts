@@ -236,6 +236,23 @@ export const bookEventHandlerMap: BookEventHandlerMap<BookEvent, BookEventContex
 		eventEmitter.broadcast({ type: 'multiplierGridShow' });
 		eventEmitter.broadcast({ type: 'multiplierGridUpdate', grid: bookEvent.gridMultipliers });
 	},
+	vampireKillUpdate: async (bookEvent: BookEventOfType<'vampireKillUpdate'>) => {
+		eventEmitter.broadcast({ type: 'killCounterShow' });
+		eventEmitter.broadcast({
+			type: 'killCounterUpdate',
+			totalKills: bookEvent.totalKills,
+			killsAdded: bookEvent.killsAdded,
+		});
+	},
+	vampireLevelUp: async (bookEvent: BookEventOfType<'vampireLevelUp'>) => {
+		eventEmitter.broadcast({ type: 'soundOnce', name: 'sfx_winlevel_small' });
+		await eventEmitter.broadcastAsync({
+			type: 'levelUpShow',
+			level: bookEvent.level,
+			eliminatedSymbol: bookEvent.eliminatedSymbol,
+			freeSpinsAwarded: bookEvent.freeSpinsAwarded,
+		});
+	},
 	finalWin: async (bookEvent: BookEventOfType<'finalWin'>) => {
 		eventEmitter.broadcast({ type: 'multiplierGridClear' });
 		eventEmitter.broadcast({ type: 'multiplierGridHide' });

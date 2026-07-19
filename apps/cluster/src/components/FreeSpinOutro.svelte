@@ -8,7 +8,7 @@
 </script>
 
 <script lang="ts">
-	import { Sprite, SpineProvider, SpineTrack, SpineSlot } from 'pixi-svelte';
+	import { Sprite, SpineProvider, SpineTrack, SpineSlot, Text } from 'pixi-svelte';
 	import { FadeContainer, WinCountUpProvider, ResponsiveBitmapText } from 'components-pixi';
 	import { bookEventAmountToCurrencyString } from 'utils-shared/amount';
 	import { waitForResolve } from 'utils-shared/wait';
@@ -55,6 +55,20 @@
 
 				<FreeSpinAnimation>
 					{#snippet children({ sizes })}
+						<Text
+							anchor={{ x: 0.5, y: 0.5 }}
+							y={-sizes.height * 0.42}
+							text="HUNT COMPLETE"
+							style={{
+								fontFamily: 'proxima-nova',
+								fontSize: sizes.width * 0.09,
+								fontWeight: '700',
+								letterSpacing: 3,
+								fill: 0xc41e3a,
+								stroke: { color: 0x1a0000, width: 3 },
+							}}
+						/>
+
 						{#if isBigWin}
 							<Sprite
 								anchor={{ x: 0.5, y: 1.2 }}

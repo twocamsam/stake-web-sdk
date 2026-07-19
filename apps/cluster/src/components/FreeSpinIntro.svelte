@@ -10,7 +10,7 @@
 	import { stateUrlDerived } from 'state-shared';
 	import { FadeContainer } from 'components-pixi';
 	import { waitForResolve } from 'utils-shared/wait';
-	import { BitmapText, SpineProvider, SpineSlot, SpineTrack, Sprite } from 'pixi-svelte';
+	import { BitmapText, SpineProvider, SpineSlot, SpineTrack, Sprite, Text } from 'pixi-svelte';
 
 	import { getContext } from '../game/context';
 	import PressToContinue from './PressToContinue.svelte';
@@ -44,6 +44,20 @@
 
 	<FreeSpinAnimation>
 		{#snippet children({ sizes })}
+			<Text
+				anchor={{ x: 0.5, y: 0.5 }}
+				y={-sizes.height * 0.42}
+				text="THE HUNT BEGINS"
+				style={{
+					fontFamily: 'proxima-nova',
+					fontSize: sizes.width * 0.09,
+					fontWeight: '700',
+					letterSpacing: 3,
+					fill: 0xc41e3a,
+					stroke: { color: 0x1a0000, width: 3 },
+				}}
+			/>
+
 			<Sprite
 				anchor={{ x: 0.5, y: 1.2 }}
 				width={500 * 2.2}

@@ -12,6 +12,8 @@
 </script>
 
 <script lang="ts">
+	import _ from 'lodash';
+
 	import { waitForResolve } from 'utils-shared/wait';
 	import { BoardContext } from 'components-shared';
 
@@ -30,8 +32,16 @@
 		boardShow: () => (show = true),
 		boardHide: () => (show = false),
 		boardWithAnimateSymbols: async ({ symbolPositions }) => {
+			// dedupe: overlapping wins can list the same cell more than once, and since
+			// each cell has a single `oncomplete` slot, mapping duplicates 1:1 to promises
+			// would let a later duplicate's resolver silently clobber an earlier one,
+			// leaving that earlier promise (and the whole Promise.all) unresolved forever.
+			const uniquePositions = _.uniqBy(
+				symbolPositions,
+				(position) => `${position.reel}-${position.row}`,
+			);
 			const getPromises = () =>
-				symbolPositions.map(async (position) => {
+				uniquePositions.map(async (position) => {
 					const reelSymbol = context.stateGame.board[position.reel].reelState.symbols[position.row];
 					reelSymbol.symbolState = 'win';
 					await waitForResolve((resolve) => (reelSymbol.oncomplete = resolve));

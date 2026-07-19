@@ -3,8 +3,8 @@ export default {
 	gameName: 'sample_lines',
 	gameID: '0_0_cluster',
 	rtp: 0.97,
-	numReels: 7,
-	numRows: [7, 7, 7, 7, 7, 7, 7],
+	numReels: 6,
+	numRows: [5, 5, 5, 5, 5, 5],
 	betModes: {
 		base: {
 			cost: 1.0,
