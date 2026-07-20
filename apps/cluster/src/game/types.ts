@@ -8,10 +8,12 @@ export type SymbolName =
 	| 'GUARD'
 	| 'SMITH'
 	| 'FARMER'
-	| 'BAKER'
 	| 'MILLER'
-	| 'STRAW'
-	| 'CART'
+	| 'PEASANT'
+	| 'A'
+	| 'K'
+	| 'Q'
+	| 'J'
 	| 'MOON';
 export type RawSymbol = { name: SymbolName; multiplier?: number; scatter?: boolean };
 export type BetMode = keyof typeof config.betModes;

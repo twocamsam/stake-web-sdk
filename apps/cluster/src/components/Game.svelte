@@ -18,6 +18,7 @@
 	import Background from './Background.svelte';
 	import LoadingScreen from './LoadingScreen.svelte';
 	import BoardFrame from './BoardFrame.svelte';
+	import EmberBorder from './EmberBorder.svelte';
 	import MultiplierGrid from './MultiplierGrid.svelte';
 	import Board from './Board.svelte';
 	import Anticipations from './Anticipations.svelte';
@@ -28,7 +29,7 @@
 	import Win from './Win.svelte';
 	import FreeSpinIntro from './FreeSpinIntro.svelte';
 	import FreeSpinCounter from './FreeSpinCounter.svelte';
-	import KillCounter from './KillCounter.svelte';
+	import KillMeterRail from './KillMeterRail.svelte';
 	import LevelUpBanner from './LevelUpBanner.svelte';
 	import FreeSpinOutro from './FreeSpinOutro.svelte';
 	import Transition from './Transition.svelte';
@@ -83,6 +84,10 @@
 			<ClusterWinAmounts />
 		</MainContainer>
 
+		<MainContainer>
+			<EmberBorder />
+		</MainContainer>
+
 		<UI>
 			{#snippet gameName()}
 				<UiGameName name="CLUSTER GAME" />
@@ -106,7 +111,7 @@
 		<FreeSpinIntro />
 		{#if ['desktop', 'landscape'].includes(context.stateLayoutDerived.layoutType())}
 			<FreeSpinCounter />
-			<KillCounter />
+			<KillMeterRail />
 		{/if}
 		<LevelUpBanner />
 		<FreeSpinOutro />

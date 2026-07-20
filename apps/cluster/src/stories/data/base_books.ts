@@ -12,7 +12,184 @@ export default [
        "name": "PEASANT"
       },
       {
-       "name": "CART"
+       "name": "PEASANT"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "K"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     115,
+     120,
+     166,
+     97,
+     201,
+     53
+    ],
+    "gameType": "basegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 1,
+    "type": "setTotalWin",
+    "amount": 0
+   },
+   {
+    "index": 2,
+    "type": "finalWin",
+    "amount": 0
+   }
+  ]
+ },
+ {
+  "id": 2,
+  "payoutMultiplier": 0.0,
+  "events": [
+   {
+    "index": 0,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "J"
       },
       {
        "name": "PRIEST"
@@ -24,7 +201,7 @@ export default [
        "name": "PEASANT"
       },
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
        "name": "SMITH"
@@ -32,30 +209,30 @@ export default [
      ],
      [
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
-       "name": "CART"
+       "name": "J"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       }
      ],
      [
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
        "name": "GUARD"
@@ -83,7 +260,7 @@ export default [
        "name": "PEASANT"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
        "name": "VLORD",
@@ -93,7 +270,7 @@ export default [
        "name": "SMITH"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
        "name": "PRIEST"
@@ -110,13 +287,13 @@ export default [
        "name": "SMITH"
       },
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
        "name": "PRIEST"
@@ -127,16 +304,16 @@ export default [
      ],
      [
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
        "name": "SMITH"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
        "name": "PRIEST"
@@ -180,496 +357,8 @@ export default [
   ]
  },
  {
-  "id": 2,
-  "payoutMultiplier": 0.0,
-  "events": [
-   {
-    "index": 0,
-    "type": "reveal",
-    "board": [
-     [
-      {
-       "name": "CART"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "GUARD"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      }
-     ],
-     [
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "PRIEST"
-      }
-     ],
-     [
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "CART"
-      }
-     ],
-     [
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "CART"
-      }
-     ],
-     [
-      {
-       "name": "CART"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      }
-     ]
-    ],
-    "paddingPositions": [
-     26,
-     184,
-     101,
-     122,
-     39,
-     23
-    ],
-    "gameType": "basegame",
-    "anticipation": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   {
-    "index": 1,
-    "type": "setTotalWin",
-    "amount": 0
-   },
-   {
-    "index": 2,
-    "type": "finalWin",
-    "amount": 0
-   }
-  ]
- },
- {
   "id": 3,
-  "payoutMultiplier": 0.5,
-  "events": [
-   {
-    "index": 0,
-    "type": "reveal",
-    "board": [
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "SMITH"
-      }
-     ],
-     [
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "MOON",
-       "scatter": true
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "PRIEST"
-      }
-     ],
-     [
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "CART"
-      }
-     ],
-     [
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "PRIEST"
-      }
-     ]
-    ],
-    "paddingPositions": [
-     216,
-     205,
-     195,
-     16,
-     65,
-     30
-    ],
-    "gameType": "basegame",
-    "anticipation": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   {
-    "index": 1,
-    "type": "winInfo",
-    "totalWin": 50,
-    "wins": [
-     {
-      "symbol": "SMITH",
-      "clusterSize": 7,
-      "win": 50,
-      "positions": [
-       {
-        "reel": 2,
-        "row": 4
-       },
-       {
-        "reel": 3,
-        "row": 4
-       },
-       {
-        "reel": 4,
-        "row": 4
-       },
-       {
-        "reel": 5,
-        "row": 4
-       },
-       {
-        "reel": 5,
-        "row": 3
-       },
-       {
-        "reel": 5,
-        "row": 5
-       },
-       {
-        "reel": 4,
-        "row": 3
-       }
-      ],
-      "meta": {
-       "globalMult": 1,
-       "clusterMult": 1,
-       "winWithoutMult": 50,
-       "overlay": {
-        "reel": 4,
-        "row": 4
-       }
-      }
-     }
-    ]
-   },
-   {
-    "index": 2,
-    "type": "updateTumbleWin",
-    "amount": 50
-   },
-   {
-    "index": 3,
-    "type": "tumbleBoard",
-    "newSymbols": [
-     [],
-     [],
-     [
-      {
-       "name": "GUARD"
-      }
-     ],
-     [
-      {
-       "name": "CART"
-      }
-     ],
-     [
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "PRIEST"
-      }
-     ],
-     [
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      }
-     ]
-    ],
-    "explodingSymbols": [
-     {
-      "reel": 2,
-      "row": 4
-     },
-     {
-      "reel": 3,
-      "row": 4
-     },
-     {
-      "reel": 4,
-      "row": 4
-     },
-     {
-      "reel": 4,
-      "row": 3
-     },
-     {
-      "reel": 5,
-      "row": 4
-     },
-     {
-      "reel": 5,
-      "row": 3
-     },
-     {
-      "reel": 5,
-      "row": 5
-     }
-    ]
-   },
-   {
-    "index": 4,
-    "type": "setWin",
-    "amount": 50,
-    "winLevel": 2
-   },
-   {
-    "index": 5,
-    "type": "setTotalWin",
-    "amount": 50
-   },
-   {
-    "index": 6,
-    "type": "finalWin",
-    "amount": 50
-   }
-  ]
- },
- {
-  "id": 4,
-  "payoutMultiplier": 0.3,
+  "payoutMultiplier": 0.12,
   "events": [
    {
     "index": 0,
@@ -686,7 +375,7 @@ export default [
        "name": "SMITH"
       },
       {
-       "name": "BAKER"
+       "name": "J"
       },
       {
        "name": "FARMER"
@@ -695,7 +384,7 @@ export default [
        "name": "PEASANT"
       },
       {
-       "name": "CART"
+       "name": "J"
       }
      ],
      [
@@ -732,33 +421,33 @@ export default [
        "name": "GUARD"
       },
       {
-       "name": "BAKER"
+       "name": "J"
       },
       {
        "name": "FARMER"
       },
       {
-       "name": "CART"
+       "name": "J"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       }
      ],
      [
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
        "name": "FARMER"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
        "name": "PRIEST"
@@ -787,33 +476,33 @@ export default [
        "wild": true
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       }
      ],
      [
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
-       "name": "CART"
+       "name": "J"
       },
       {
        "name": "PEASANT"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "CART"
+       "name": "J"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       }
      ]
     ],
@@ -838,48 +527,8 @@ export default [
    {
     "index": 1,
     "type": "winInfo",
-    "totalWin": 30,
+    "totalWin": 12,
     "wins": [
-     {
-      "symbol": "BAKER",
-      "clusterSize": 6,
-      "win": 20,
-      "positions": [
-       {
-        "reel": 2,
-        "row": 3
-       },
-       {
-        "reel": 3,
-        "row": 3
-       },
-       {
-        "reel": 4,
-        "row": 3
-       },
-       {
-        "reel": 5,
-        "row": 3
-       },
-       {
-        "reel": 4,
-        "row": 4
-       },
-       {
-        "reel": 4,
-        "row": 5
-       }
-      ],
-      "meta": {
-       "globalMult": 1,
-       "clusterMult": 1,
-       "winWithoutMult": 20,
-       "overlay": {
-        "reel": 4,
-        "row": 3
-       }
-      }
-     },
      {
       "symbol": "FARMER",
       "clusterSize": 5,
@@ -915,13 +564,49 @@ export default [
         "row": 2
        }
       }
+     },
+     {
+      "symbol": "A",
+      "clusterSize": 5,
+      "win": 2,
+      "positions": [
+       {
+        "reel": 3,
+        "row": 3
+       },
+       {
+        "reel": 4,
+        "row": 3
+       },
+       {
+        "reel": 5,
+        "row": 3
+       },
+       {
+        "reel": 4,
+        "row": 4
+       },
+       {
+        "reel": 4,
+        "row": 5
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 2,
+       "overlay": {
+        "reel": 4,
+        "row": 4
+       }
+      }
      }
     ]
    },
    {
     "index": 2,
     "type": "updateTumbleWin",
-    "amount": 30
+    "amount": 12
    },
    {
     "index": 3,
@@ -929,11 +614,7 @@ export default [
     "newSymbols": [
      [],
      [],
-     [
-      {
-       "name": "GUARD"
-      }
-     ],
+     [],
      [
       {
        "name": "SMITH"
@@ -944,10 +625,10 @@ export default [
      ],
      [
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
        "name": "PEASANT"
@@ -961,34 +642,18 @@ export default [
      ],
      [
       {
-       "name": "CART"
+       "name": "Q"
       }
      ]
     ],
     "explodingSymbols": [
      {
-      "reel": 2,
-      "row": 3
-     },
-     {
-      "reel": 3,
-      "row": 3
-     },
-     {
       "reel": 3,
       "row": 2
      },
      {
-      "reel": 4,
+      "reel": 3,
       "row": 3
-     },
-     {
-      "reel": 4,
-      "row": 4
-     },
-     {
-      "reel": 4,
-      "row": 5
      },
      {
       "reel": 4,
@@ -1007,6 +672,18 @@ export default [
       "row": 4
      },
      {
+      "reel": 4,
+      "row": 3
+     },
+     {
+      "reel": 4,
+      "row": 4
+     },
+     {
+      "reel": 4,
+      "row": 5
+     },
+     {
       "reel": 5,
       "row": 3
      }
@@ -1015,23 +692,23 @@ export default [
    {
     "index": 4,
     "type": "setWin",
-    "amount": 30,
+    "amount": 12,
     "winLevel": 2
    },
    {
     "index": 5,
     "type": "setTotalWin",
-    "amount": 30
+    "amount": 12
    },
    {
     "index": 6,
     "type": "finalWin",
-    "amount": 30
+    "amount": 12
    }
   ]
  },
  {
-  "id": 5,
+  "id": 4,
   "payoutMultiplier": 0.6,
   "events": [
    {
@@ -1052,7 +729,7 @@ export default [
        "name": "SMITH"
       },
       {
-       "name": "BAKER"
+       "name": "J"
       },
       {
        "name": "FARMER"
@@ -1078,7 +755,7 @@ export default [
        "name": "PEASANT"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
        "name": "SMITH"
@@ -1100,10 +777,10 @@ export default [
        "name": "GUARD"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
        "name": "FARMER"
@@ -1114,10 +791,10 @@ export default [
        "name": "PRIEST"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
        "name": "PEASANT"
@@ -1126,7 +803,7 @@ export default [
        "name": "FARMER"
       },
       {
-       "name": "BAKER"
+       "name": "J"
       },
       {
        "name": "PEASANT"
@@ -1143,13 +820,13 @@ export default [
        "name": "FARMER"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
        "name": "FARMER"
       },
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
        "name": "GUARD"
@@ -1157,10 +834,10 @@ export default [
      ],
      [
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
-       "name": "STRAW"
+       "name": "J"
       },
       {
        "name": "PRIEST"
@@ -1296,7 +973,7 @@ export default [
      ],
      [
       {
-       "name": "CART"
+       "name": "J"
       },
       {
        "name": "FARMER"
@@ -1307,10 +984,10 @@ export default [
      ],
      [
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
-       "name": "STRAW"
+       "name": "K"
       }
      ],
      [
@@ -1320,15 +997,15 @@ export default [
      ],
      [
       {
-       "name": "STRAW"
+       "name": "K"
       }
      ],
      [
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
        "name": "PRIEST"
@@ -1401,8 +1078,8 @@ export default [
   ]
  },
  {
-  "id": 6,
-  "payoutMultiplier": 14.9,
+  "id": 5,
+  "payoutMultiplier": 0.3,
   "events": [
    {
     "index": 0,
@@ -1410,79 +1087,63 @@ export default [
     "board": [
      [
       {
+       "name": "FARMER"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "Q"
+      },
+      {
        "name": "PEASANT"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "GUARD"
       },
       {
        "name": "FARMER"
       },
       {
-       "name": "GUARD"
+       "name": "FARMER"
       },
       {
-       "name": "CART"
-      },
-      {
-       "name": "BAKER"
+       "name": "K"
       }
      ],
      [
       {
-       "name": "BAKER"
+       "name": "MOON",
+       "scatter": true
       },
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
        "name": "PRIEST"
       },
       {
+       "name": "J"
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      },
+      {
        "name": "PRIEST"
       },
       {
        "name": "VLORD",
        "wild": true
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
       }
      ],
      [
       {
-       "name": "FARMER"
+       "name": "Q"
       },
       {
-       "name": "FARMER"
+       "name": "GUARD"
       },
       {
-       "name": "PEASANT"
+       "name": "GUARD"
       },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "PEASANT"
-      }
-     ],
-     [
       {
        "name": "SMITH"
       },
@@ -1490,76 +1151,91 @@ export default [
        "name": "PRIEST"
       },
       {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
        "name": "PRIEST"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
       },
       {
        "name": "VLORD",
        "wild": true
       },
       {
-       "name": "FARMER"
+       "name": "VLORD",
+       "wild": true
       },
       {
-       "name": "FARMER"
+       "name": "A"
       },
       {
-       "name": "BAKER"
+       "name": "Q"
+      },
+      {
+       "name": "PEASANT"
       }
      ],
      [
       {
-       "name": "PEASANT"
+       "name": "PRIEST"
       },
       {
-       "name": "PEASANT"
+       "name": "PRIEST"
       },
       {
-       "name": "GUARD"
+       "name": "J"
       },
       {
-       "name": "GUARD"
+       "name": "K"
       },
       {
-       "name": "STRAW"
+       "name": "SMITH"
       },
       {
-       "name": "GUARD"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
+       "name": "SMITH"
       },
       {
        "name": "GUARD"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "FARMER"
       }
      ]
     ],
     "paddingPositions": [
-     223,
-     53,
-     17,
-     47,
-     159,
-     123
+     210,
+     20,
+     124,
+     195,
+     66,
+     9
     ],
     "gameType": "basegame",
     "anticipation": [
@@ -1574,96 +1250,32 @@ export default [
    {
     "index": 1,
     "type": "winInfo",
-    "totalWin": 1490,
+    "totalWin": 30,
     "wins": [
      {
-      "symbol": "GUARD",
-      "clusterSize": 10,
-      "win": 600,
-      "positions": [
-       {
-        "reel": 0,
-        "row": 4
-       },
-       {
-        "reel": 1,
-        "row": 4
-       },
-       {
-        "reel": 2,
-        "row": 4
-       },
-       {
-        "reel": 2,
-        "row": 3
-       },
-       {
-        "reel": 3,
-        "row": 3
-       },
-       {
-        "reel": 4,
-        "row": 3
-       },
-       {
-        "reel": 5,
-        "row": 3
-       },
-       {
-        "reel": 5,
-        "row": 2
-       },
-       {
-        "reel": 4,
-        "row": 2
-       },
-       {
-        "reel": 2,
-        "row": 5
-       }
-      ],
-      "meta": {
-       "globalMult": 1,
-       "clusterMult": 1,
-       "winWithoutMult": 600,
-       "overlay": {
-        "reel": 3,
-        "row": 3
-       }
-      }
-     },
-     {
-      "symbol": "FARMER",
-      "clusterSize": 7,
+      "symbol": "PRIEST",
+      "clusterSize": 5,
       "win": 30,
       "positions": [
        {
+        "reel": 2,
+        "row": 4
+       },
+       {
         "reel": 3,
         "row": 4
-       },
-       {
-        "reel": 2,
-        "row": 4
-       },
-       {
-        "reel": 1,
-        "row": 4
-       },
-       {
-        "reel": 2,
-        "row": 3
-       },
-       {
-        "reel": 2,
-        "row": 5
        },
        {
         "reel": 3,
         "row": 3
        },
        {
-        "reel": 3,
-        "row": 5
+        "reel": 4,
+        "row": 3
+       },
+       {
+        "reel": 4,
+        "row": 2
        }
       ],
       "meta": {
@@ -1671,139 +1283,7 @@ export default [
        "clusterMult": 1,
        "winWithoutMult": 30,
        "overlay": {
-        "reel": 2,
-        "row": 4
-       }
-      }
-     },
-     {
-      "symbol": "PRIEST",
-      "clusterSize": 9,
-      "win": 800,
-      "positions": [
-       {
-        "reel": 1,
-        "row": 2
-       },
-       {
-        "reel": 1,
-        "row": 3
-       },
-       {
-        "reel": 2,
-        "row": 3
-       },
-       {
         "reel": 3,
-        "row": 3
-       },
-       {
-        "reel": 3,
-        "row": 2
-       },
-       {
-        "reel": 3,
-        "row": 1
-       },
-       {
-        "reel": 2,
-        "row": 4
-       },
-       {
-        "reel": 2,
-        "row": 5
-       },
-       {
-        "reel": 1,
-        "row": 4
-       }
-      ],
-      "meta": {
-       "globalMult": 1,
-       "clusterMult": 1,
-       "winWithoutMult": 800,
-       "overlay": {
-        "reel": 2,
-        "row": 3
-       }
-      }
-     },
-     {
-      "symbol": "SMITH",
-      "clusterSize": 6,
-      "win": 50,
-      "positions": [
-       {
-        "reel": 1,
-        "row": 5
-       },
-       {
-        "reel": 2,
-        "row": 5
-       },
-       {
-        "reel": 2,
-        "row": 4
-       },
-       {
-        "reel": 2,
-        "row": 3
-       },
-       {
-        "reel": 3,
-        "row": 3
-       },
-       {
-        "reel": 1,
-        "row": 4
-       }
-      ],
-      "meta": {
-       "globalMult": 1,
-       "clusterMult": 1,
-       "winWithoutMult": 50,
-       "overlay": {
-        "reel": 2,
-        "row": 4
-       }
-      }
-     },
-     {
-      "symbol": "PEASANT",
-      "clusterSize": 6,
-      "win": 10,
-      "positions": [
-       {
-        "reel": 2,
-        "row": 2
-       },
-       {
-        "reel": 2,
-        "row": 3
-       },
-       {
-        "reel": 3,
-        "row": 3
-       },
-       {
-        "reel": 2,
-        "row": 4
-       },
-       {
-        "reel": 1,
-        "row": 4
-       },
-       {
-        "reel": 2,
-        "row": 5
-       }
-      ],
-      "meta": {
-       "globalMult": 1,
-       "clusterMult": 1,
-       "winWithoutMult": 10,
-       "overlay": {
-        "reel": 2,
         "row": 3
        }
       }
@@ -1813,37 +1293,549 @@ export default [
    {
     "index": 2,
     "type": "updateTumbleWin",
-    "amount": 1490
+    "amount": 30
    },
    {
     "index": 3,
     "type": "tumbleBoard",
     "newSymbols": [
+     [],
+     [],
      [
       {
-       "name": "BAKER"
+       "name": "K"
       }
      ],
      [
       {
-       "name": "CART"
+       "name": "Q"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 2,
+      "row": 4
+     },
+     {
+      "reel": 3,
+      "row": 4
+     },
+     {
+      "reel": 3,
+      "row": 3
+     },
+     {
+      "reel": 4,
+      "row": 3
+     },
+     {
+      "reel": 4,
+      "row": 2
+     }
+    ]
+   },
+   {
+    "index": 4,
+    "type": "setWin",
+    "amount": 30,
+    "winLevel": 2
+   },
+   {
+    "index": 5,
+    "type": "setTotalWin",
+    "amount": 30
+   },
+   {
+    "index": 6,
+    "type": "finalWin",
+    "amount": 30
+   }
+  ]
+ },
+ {
+  "id": 6,
+  "payoutMultiplier": 11.0,
+  "events": [
+   {
+    "index": 0,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "K"
       },
       {
        "name": "SMITH"
       },
       {
-       "name": "FARMER"
+       "name": "PRIEST"
       },
       {
-       "name": "CART"
+       "name": "SMITH"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     13,
+     173,
+     19,
+     6,
+     31,
+     129
+    ],
+    "gameType": "basegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 1,
+    "type": "winInfo",
+    "totalWin": 1100,
+    "wins": [
+     {
+      "symbol": "PEASANT",
+      "clusterSize": 9,
+      "win": 100,
+      "positions": [
+       {
+        "reel": 2,
+        "row": 4
+       },
+       {
+        "reel": 2,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 3,
+        "row": 2
+       },
+       {
+        "reel": 4,
+        "row": 2
+       },
+       {
+        "reel": 4,
+        "row": 1
+       },
+       {
+        "reel": 3,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 5
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 100,
+       "overlay": {
+        "reel": 3,
+        "row": 2
+       }
+      }
+     },
+     {
+      "symbol": "Q",
+      "clusterSize": 9,
+      "win": 50,
+      "positions": [
+       {
+        "reel": 1,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 3,
+        "row": 1
+       },
+       {
+        "reel": 4,
+        "row": 1
+       },
+       {
+        "reel": 4,
+        "row": 2
+       },
+       {
+        "reel": 3,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 3
+       },
+       {
+        "reel": 1,
+        "row": 2
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 50,
+       "overlay": {
+        "reel": 2,
+        "row": 2
+       }
+      }
+     },
+     {
+      "symbol": "A",
+      "clusterSize": 11,
+      "win": 80,
+      "positions": [
+       {
+        "reel": 1,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 3,
+        "row": 2
+       },
+       {
+        "reel": 4,
+        "row": 2
+       },
+       {
+        "reel": 4,
+        "row": 1
+       },
+       {
+        "reel": 4,
+        "row": 3
+       },
+       {
+        "reel": 4,
+        "row": 4
+       },
+       {
+        "reel": 4,
+        "row": 5
+       },
+       {
+        "reel": 3,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 1
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 80,
+       "overlay": {
+        "reel": 3,
+        "row": 2
+       }
+      }
+     },
+     {
+      "symbol": "PRIEST",
+      "clusterSize": 9,
+      "win": 800,
+      "positions": [
+       {
+        "reel": 5,
+        "row": 1
+       },
+       {
+        "reel": 4,
+        "row": 1
+       },
+       {
+        "reel": 3,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 3
+       },
+       {
+        "reel": 3,
+        "row": 2
+       },
+       {
+        "reel": 4,
+        "row": 2
+       },
+       {
+        "reel": 5,
+        "row": 2
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 800,
+       "overlay": {
+        "reel": 3,
+        "row": 2
+       }
+      }
+     },
+     {
+      "symbol": "GUARD",
+      "clusterSize": 8,
+      "win": 70,
+      "positions": [
+       {
+        "reel": 3,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 3,
+        "row": 1
+       },
+       {
+        "reel": 4,
+        "row": 1
+       },
+       {
+        "reel": 4,
+        "row": 2
+       },
+       {
+        "reel": 3,
+        "row": 2
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 70,
+       "overlay": {
+        "reel": 3,
+        "row": 2
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 2,
+    "type": "updateTumbleWin",
+    "amount": 1100
+   },
+   {
+    "index": 3,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
       }
      ],
      [
       {
-       "name": "FARMER"
-      },
-      {
-       "name": "STRAW"
+       "name": "K"
       },
       {
        "name": "GUARD"
@@ -1851,54 +1843,55 @@ export default [
       {
        "name": "VLORD",
        "wild": true
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
       }
      ],
      [
       {
-       "name": "CART"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
        "name": "SMITH"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
       }
      ],
      [
       {
-       "name": "STRAW"
+       "name": "PRIEST"
       },
       {
-       "name": "SMITH"
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
       }
      ],
      [
       {
-       "name": "STRAW"
+       "name": "A"
       },
       {
-       "name": "SMITH"
+       "name": "A"
       }
      ]
     ],
     "explodingSymbols": [
      {
-      "reel": 0,
-      "row": 4
-     },
-     {
       "reel": 1,
-      "row": 4
-     },
-     {
-      "reel": 1,
-      "row": 4
+      "row": 1
      },
      {
       "reel": 1,
@@ -1907,62 +1900,6 @@ export default [
      {
       "reel": 1,
       "row": 3
-     },
-     {
-      "reel": 1,
-      "row": 4
-     },
-     {
-      "reel": 1,
-      "row": 5
-     },
-     {
-      "reel": 1,
-      "row": 4
-     },
-     {
-      "reel": 1,
-      "row": 4
-     },
-     {
-      "reel": 2,
-      "row": 4
-     },
-     {
-      "reel": 2,
-      "row": 3
-     },
-     {
-      "reel": 2,
-      "row": 5
-     },
-     {
-      "reel": 2,
-      "row": 4
-     },
-     {
-      "reel": 2,
-      "row": 3
-     },
-     {
-      "reel": 2,
-      "row": 5
-     },
-     {
-      "reel": 2,
-      "row": 3
-     },
-     {
-      "reel": 2,
-      "row": 4
-     },
-     {
-      "reel": 2,
-      "row": 5
-     },
-     {
-      "reel": 2,
-      "row": 5
      },
      {
       "reel": 2,
@@ -1978,35 +1915,59 @@ export default [
      },
      {
       "reel": 2,
-      "row": 3
-     },
-     {
-      "reel": 2,
-      "row": 4
+      "row": 1
      },
      {
       "reel": 2,
       "row": 5
      },
      {
-      "reel": 3,
+      "reel": 2,
+      "row": 1
+     },
+     {
+      "reel": 2,
+      "row": 2
+     },
+     {
+      "reel": 2,
       "row": 3
      },
      {
-      "reel": 3,
-      "row": 4
-     },
-     {
-      "reel": 3,
+      "reel": 2,
       "row": 3
      },
      {
-      "reel": 3,
-      "row": 5
+      "reel": 2,
+      "row": 2
      },
      {
-      "reel": 3,
+      "reel": 2,
+      "row": 1
+     },
+     {
+      "reel": 2,
+      "row": 1
+     },
+     {
+      "reel": 2,
+      "row": 2
+     },
+     {
+      "reel": 2,
       "row": 3
+     },
+     {
+      "reel": 2,
+      "row": 3
+     },
+     {
+      "reel": 2,
+      "row": 2
+     },
+     {
+      "reel": 2,
+      "row": 1
      },
      {
       "reel": 3,
@@ -2018,15 +1979,87 @@ export default [
      },
      {
       "reel": 3,
-      "row": 3
+      "row": 1
+     },
+     {
+      "reel": 3,
+      "row": 2
+     },
+     {
+      "reel": 3,
+      "row": 2
+     },
+     {
+      "reel": 3,
+      "row": 1
+     },
+     {
+      "reel": 3,
+      "row": 1
+     },
+     {
+      "reel": 3,
+      "row": 2
      },
      {
       "reel": 3,
       "row": 3
      },
      {
+      "reel": 3,
+      "row": 1
+     },
+     {
+      "reel": 3,
+      "row": 2
+     },
+     {
+      "reel": 4,
+      "row": 2
+     },
+     {
+      "reel": 4,
+      "row": 1
+     },
+     {
+      "reel": 4,
+      "row": 1
+     },
+     {
+      "reel": 4,
+      "row": 2
+     },
+     {
+      "reel": 4,
+      "row": 2
+     },
+     {
+      "reel": 4,
+      "row": 1
+     },
+     {
       "reel": 4,
       "row": 3
+     },
+     {
+      "reel": 4,
+      "row": 4
+     },
+     {
+      "reel": 4,
+      "row": 5
+     },
+     {
+      "reel": 4,
+      "row": 1
+     },
+     {
+      "reel": 4,
+      "row": 2
+     },
+     {
+      "reel": 4,
+      "row": 1
      },
      {
       "reel": 4,
@@ -2034,7 +2067,7 @@ export default [
      },
      {
       "reel": 5,
-      "row": 3
+      "row": 1
      },
      {
       "reel": 5,
@@ -2045,24 +2078,24 @@ export default [
    {
     "index": 4,
     "type": "setWin",
-    "amount": 1490,
+    "amount": 1100,
     "winLevel": 5
    },
    {
     "index": 5,
     "type": "setTotalWin",
-    "amount": 1490
+    "amount": 1100
    },
    {
     "index": 6,
     "type": "finalWin",
-    "amount": 1490
+    "amount": 1100
    }
   ]
  },
  {
   "id": 7,
-  "payoutMultiplier": 1.49,
+  "payoutMultiplier": 6.76,
   "events": [
    {
     "index": 0,
@@ -2070,53 +2103,78 @@ export default [
     "board": [
      [
       {
-       "name": "MOON",
-       "scatter": true
+       "name": "PEASANT"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
       },
       {
        "name": "MOON",
        "scatter": true
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "GUARD"
       },
       {
        "name": "SMITH"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "MOON",
-       "scatter": true
       }
      ],
      [
       {
-       "name": "BAKER"
-      },
-      {
-       "name": "CART"
+       "name": "MOON",
+       "scatter": true
       },
       {
        "name": "FARMER"
       },
       {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
        "name": "PRIEST"
       },
       {
-       "name": "CART"
+       "name": "K"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "K"
       },
       {
        "name": "MOON",
        "scatter": true
       },
       {
-       "name": "MOON",
-       "scatter": true
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
       }
      ],
      [
@@ -2128,61 +2186,53 @@ export default [
        "name": "GUARD"
       },
       {
-       "name": "STRAW"
+       "name": "GUARD"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      }
+     ],
+     [
+      {
+       "name": "K"
       },
       {
        "name": "FARMER"
       },
       {
-       "name": "CART"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "MOON",
-       "scatter": true
-      }
-     ],
-     [
-      {
-       "name": "MOON",
-       "scatter": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
+       "name": "GUARD"
       },
       {
        "name": "SMITH"
       },
       {
-       "name": "MOON",
-       "scatter": true
+       "name": "A"
       },
       {
-       "name": "PEASANT"
+       "name": "GUARD"
       },
       {
-       "name": "SMITH"
-      },
-      {
-       "name": "MOON",
-       "scatter": true
+       "name": "FARMER"
       }
      ],
      [
       {
-       "name": "CART"
+       "name": "PRIEST"
       },
       {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
+       "name": "J"
       },
       {
        "name": "FARMER"
@@ -2192,45 +2242,23 @@ export default [
        "scatter": true
       },
       {
-       "name": "PRIEST"
+       "name": "GUARD"
       },
       {
-       "name": "MOON",
-       "scatter": true
-      }
-     ],
-     [
-      {
-       "name": "BAKER"
+       "name": "J"
       },
       {
-       "name": "PRIEST"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "MOON",
-       "scatter": true
+       "name": "A"
       }
      ]
     ],
     "paddingPositions": [
-     23,
-     148,
-     8,
-     100,
-     -1,
-     143
+     30,
+     140,
+     147,
+     48,
+     156,
+     37
     ],
     "gameType": "basegame",
     "anticipation": [
@@ -2244,259 +2272,226 @@ export default [
    },
    {
     "index": 1,
-    "type": "setTotalWin",
-    "amount": 0
+    "type": "winInfo",
+    "totalWin": 33,
+    "wins": [
+     {
+      "symbol": "PEASANT",
+      "clusterSize": 5,
+      "win": 3,
+      "positions": [
+       {
+        "reel": 1,
+        "row": 5
+       },
+       {
+        "reel": 2,
+        "row": 5
+       },
+       {
+        "reel": 2,
+        "row": 4
+       },
+       {
+        "reel": 3,
+        "row": 4
+       },
+       {
+        "reel": 2,
+        "row": 3
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 3,
+       "overlay": {
+        "reel": 2,
+        "row": 4
+       }
+      }
+     },
+     {
+      "symbol": "PRIEST",
+      "clusterSize": 5,
+      "win": 30,
+      "positions": [
+       {
+        "reel": 1,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 4
+       },
+       {
+        "reel": 3,
+        "row": 4
+       },
+       {
+        "reel": 1,
+        "row": 2
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 30,
+       "overlay": {
+        "reel": 2,
+        "row": 3
+       }
+      }
+     }
+    ]
    },
    {
     "index": 2,
-    "type": "freeSpinTrigger",
-    "totalFs": 10,
-    "positions": [
-     {
-      "reel": 0,
-      "row": 1
-     },
+    "type": "updateTumbleWin",
+    "amount": 33
+   },
+   {
+    "index": 3,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [],
+     [
+      {
+       "name": "MOON",
+       "scatter": true
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      }
+     ],
+     [
+      {
+       "name": "MOON",
+       "scatter": true
+      }
+     ],
+     [],
+     []
+    ],
+    "explodingSymbols": [
      {
       "reel": 1,
       "row": 5
      },
      {
-      "reel": 3,
+      "reel": 1,
       "row": 3
      },
      {
-      "reel": 4,
+      "reel": 1,
+      "row": 2
+     },
+     {
+      "reel": 2,
+      "row": 5
+     },
+     {
+      "reel": 2,
+      "row": 4
+     },
+     {
+      "reel": 2,
+      "row": 3
+     },
+     {
+      "reel": 2,
+      "row": 3
+     },
+     {
+      "reel": 2,
+      "row": 4
+     },
+     {
+      "reel": 3,
+      "row": 4
+     },
+     {
+      "reel": 3,
       "row": 4
      }
     ]
    },
    {
-    "index": 3,
-    "type": "updateFreeSpin",
-    "amount": 1,
-    "total": 10
-   },
-   {
     "index": 4,
-    "type": "reveal",
-    "board": [
-     [
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "CART"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      }
-     ],
-     [
-      {
-       "name": "CART"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PRIEST"
-      }
-     ]
-    ],
-    "paddingPositions": [
-     45,
-     199,
-     214,
-     212,
-     210,
-     180
-    ],
-    "gameType": "freegame",
-    "anticipation": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
+    "type": "setWin",
+    "amount": 33,
+    "winLevel": 2
    },
    {
     "index": 5,
-    "type": "updateGrid",
-    "gridMultipliers": [
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ]
-    ]
+    "type": "setTotalWin",
+    "amount": 33
    },
    {
     "index": 6,
-    "type": "setTotalWin",
-    "amount": 0
+    "type": "freeSpinTrigger",
+    "totalFs": 20,
+    "positions": [
+     {
+      "reel": 0,
+      "row": 3
+     },
+     {
+      "reel": 1,
+      "row": 3
+     },
+     {
+      "reel": 2,
+      "row": 1
+     },
+     {
+      "reel": 2,
+      "row": 2
+     },
+     {
+      "reel": 2,
+      "row": 5
+     },
+     {
+      "reel": 3,
+      "row": 1
+     },
+     {
+      "reel": 3,
+      "row": 5
+     },
+     {
+      "reel": 5,
+      "row": 3
+     }
+    ]
    },
    {
     "index": 7,
     "type": "updateFreeSpin",
-    "amount": 2,
-    "total": 10
+    "amount": 1,
+    "total": 20
    },
    {
     "index": 8,
@@ -2504,11 +2499,28 @@ export default [
     "board": [
      [
       {
-       "name": "STRAW"
+       "name": "FARMER"
       },
       {
-       "name": "STRAW"
+       "name": "PEASANT"
       },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
       {
        "name": "PRIEST"
       },
@@ -2516,10 +2528,42 @@ export default [
        "name": "PEASANT"
       },
       {
-       "name": "STRAW"
+       "name": "PEASANT"
       },
       {
-       "name": "FARMER"
+       "name": "K"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
       },
       {
        "name": "PEASANT"
@@ -2531,126 +2575,80 @@ export default [
        "scatter": true
       },
       {
-       "name": "PRIEST"
-      },
-      {
        "name": "VLORD",
        "wild": true
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "STRAW"
       },
       {
        "name": "SMITH"
       },
       {
-       "name": "STRAW"
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ],
+     [
+      {
+       "name": "Q"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "J"
       },
       {
        "name": "PEASANT"
       },
       {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
+       "name": "A"
       },
       {
-       "name": "FARMER"
+       "name": "PEASANT"
       },
       {
-       "name": "CART"
+       "name": "A"
       },
       {
-       "name": "BAKER"
+       "name": "PEASANT"
       },
       {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "CART"
-      }
-     ],
-     [
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "PRIEST"
+       "name": "PEASANT"
       }
      ]
     ],
     "paddingPositions": [
-     205,
+     131,
+     149,
+     21,
      24,
-     58,
-     217,
-     60,
-     195
+     126,
+     246
     ],
     "gameType": "freegame",
     "anticipation": [
@@ -2712,142 +2710,257 @@ export default [
    },
    {
     "index": 10,
-    "type": "setTotalWin",
-    "amount": 0
+    "type": "winInfo",
+    "totalWin": 10,
+    "wins": [
+     {
+      "symbol": "PEASANT",
+      "clusterSize": 7,
+      "win": 10,
+      "positions": [
+       {
+        "reel": 0,
+        "row": 1
+       },
+       {
+        "reel": 1,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 3,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 1,
+        "row": 2
+       },
+       {
+        "reel": 0,
+        "row": 2
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 10,
+       "overlay": {
+        "reel": 1,
+        "row": 1
+       }
+      }
+     }
+    ]
    },
    {
     "index": 11,
-    "type": "updateFreeSpin",
-    "amount": 3,
-    "total": 10
+    "type": "updateTumbleWin",
+    "amount": 10
    },
    {
     "index": 12,
+    "type": "vampireKillUpdate",
+    "killsAdded": 5,
+    "totalKills": 5
+   },
+   {
+    "index": 13,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      }
+     ],
+     [],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 0,
+      "row": 1
+     },
+     {
+      "reel": 0,
+      "row": 2
+     },
+     {
+      "reel": 1,
+      "row": 1
+     },
+     {
+      "reel": 1,
+      "row": 2
+     },
+     {
+      "reel": 2,
+      "row": 1
+     },
+     {
+      "reel": 2,
+      "row": 2
+     },
+     {
+      "reel": 3,
+      "row": 1
+     }
+    ]
+   },
+   {
+    "index": 14,
+    "type": "setWin",
+    "amount": 10,
+    "winLevel": 2
+   },
+   {
+    "index": 15,
+    "type": "setTotalWin",
+    "amount": 43
+   },
+   {
+    "index": 16,
+    "type": "updateFreeSpin",
+    "amount": 2,
+    "total": 20
+   },
+   {
+    "index": 17,
     "type": "reveal",
     "board": [
      [
       {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
+       "name": "GUARD"
       },
       {
        "name": "PRIEST"
       },
       {
-       "name": "VLORD",
-       "wild": true
+       "name": "A"
       },
       {
-       "name": "VLORD",
-       "wild": true
+       "name": "A"
       },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PEASANT"
+      }
+     ],
+     [
       {
        "name": "PRIEST"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "Q"
       },
       {
        "name": "MOON",
        "scatter": true
-      }
-     ],
-     [
-      {
-       "name": "FARMER"
       },
       {
-       "name": "CART"
+       "name": "J"
       },
       {
-       "name": "CART"
+       "name": "J"
       },
       {
        "name": "PRIEST"
       },
       {
-       "name": "STRAW"
+       "name": "J"
       },
       {
-       "name": "CART"
-      },
-      {
-       "name": "BAKER"
+       "name": "PEASANT"
       }
      ],
      [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "K"
+      },
       {
        "name": "SMITH"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "GUARD"
-      }
-     ],
-     [
-      {
-       "name": "PRIEST"
       },
       {
        "name": "FARMER"
@@ -2856,26 +2969,43 @@ export default [
        "name": "SMITH"
       },
       {
-       "name": "PRIEST"
+       "name": "Q"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
       },
       {
        "name": "SMITH"
       },
       {
-       "name": "STRAW"
+       "name": "Q"
       },
       {
-       "name": "PRIEST"
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
       }
      ]
     ],
     "paddingPositions": [
-     18,
-     174,
-     130,
-     241,
-     9,
-     141
+     189,
+     177,
+     116,
+     239,
+     198,
+     11
     ],
     "gameType": "freegame",
     "anticipation": [
@@ -2888,7 +3018,7 @@ export default [
     ]
    },
    {
-    "index": 13,
+    "index": 18,
     "type": "updateGrid",
     "gridMultipliers": [
      [
@@ -2936,137 +3066,15 @@ export default [
     ]
    },
    {
-    "index": 14,
-    "type": "winInfo",
-    "totalWin": 100,
-    "wins": [
-     {
-      "symbol": "PRIEST",
-      "clusterSize": 6,
-      "win": 100,
-      "positions": [
-       {
-        "reel": 0,
-        "row": 2
-       },
-       {
-        "reel": 0,
-        "row": 1
-       },
-       {
-        "reel": 0,
-        "row": 3
-       },
-       {
-        "reel": 1,
-        "row": 3
-       },
-       {
-        "reel": 0,
-        "row": 4
-       },
-       {
-        "reel": 0,
-        "row": 5
-       }
-      ],
-      "meta": {
-       "globalMult": 1,
-       "clusterMult": 1,
-       "winWithoutMult": 100,
-       "overlay": {
-        "reel": 0,
-        "row": 3
-       }
-      }
-     }
-    ]
-   },
-   {
-    "index": 15,
-    "type": "updateTumbleWin",
-    "amount": 100
-   },
-   {
-    "index": 16,
-    "type": "vampireKillUpdate",
-    "killsAdded": 3,
-    "totalKills": 3
-   },
-   {
-    "index": 17,
-    "type": "tumbleBoard",
-    "newSymbols": [
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "STRAW"
-      }
-     ],
-     [
-      {
-       "name": "CART"
-      }
-     ],
-     [],
-     [],
-     [],
-     []
-    ],
-    "explodingSymbols": [
-     {
-      "reel": 0,
-      "row": 2
-     },
-     {
-      "reel": 0,
-      "row": 1
-     },
-     {
-      "reel": 0,
-      "row": 3
-     },
-     {
-      "reel": 0,
-      "row": 4
-     },
-     {
-      "reel": 0,
-      "row": 5
-     },
-     {
-      "reel": 1,
-      "row": 3
-     }
-    ]
-   },
-   {
-    "index": 18,
-    "type": "setWin",
-    "amount": 100,
-    "winLevel": 3
-   },
-   {
     "index": 19,
     "type": "setTotalWin",
-    "amount": 100
+    "amount": 43
    },
    {
     "index": 20,
     "type": "updateFreeSpin",
-    "amount": 4,
-    "total": 10
+    "amount": 3,
+    "total": 20
    },
    {
     "index": 21,
@@ -3074,6 +3082,12 @@ export default [
     "board": [
      [
       {
+       "name": "K"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
        "name": "VLORD",
        "wild": true
       },
@@ -3089,81 +3103,30 @@ export default [
       },
       {
        "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
       },
       {
        "name": "PRIEST"
       },
       {
-       "name": "GUARD"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
+       "name": "Q"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "CART"
+       "name": "A"
       },
       {
-       "name": "SMITH"
+       "name": "Q"
       },
       {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "STRAW"
-      }
-     ],
-     [
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "CART"
-      }
-     ],
-     [
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
+       "name": "J"
       }
      ],
      [
@@ -3171,42 +3134,92 @@ export default [
        "name": "SMITH"
       },
       {
-       "name": "CART"
+       "name": "VLORD",
+       "wild": true
       },
       {
-       "name": "PEASANT"
-      },
-      {
-       "name": "CART"
+       "name": "PRIEST"
       },
       {
        "name": "SMITH"
       },
       {
-       "name": "PEASANT"
+       "name": "K"
       },
       {
-       "name": "PEASANT"
+       "name": "Q"
+      },
+      {
+       "name": "Q"
       }
      ],
      [
       {
-       "name": "STRAW"
+       "name": "PEASANT"
       },
       {
-       "name": "PRIEST"
+       "name": "Q"
       },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
       {
        "name": "GUARD"
       },
       {
-       "name": "PRIEST"
+       "name": "FARMER"
       },
       {
-       "name": "PRIEST"
+       "name": "VLORD",
+       "wild": true
       },
       {
-       "name": "GUARD"
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "K"
       },
       {
        "name": "SMITH"
@@ -3214,12 +3227,12 @@ export default [
      ]
     ],
     "paddingPositions": [
-     60,
-     91,
-     175,
-     129,
-     85,
-     35
+     58,
+     26,
+     33,
+     187,
+     51,
+     56
     ],
     "gameType": "freegame",
     "anticipation": [
@@ -3281,919 +3294,61 @@ export default [
    },
    {
     "index": 23,
-    "type": "setTotalWin",
-    "amount": 100
-   },
-   {
-    "index": 24,
-    "type": "updateFreeSpin",
-    "amount": 5,
-    "total": 10
-   },
-   {
-    "index": 25,
-    "type": "reveal",
-    "board": [
-     [
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "CART"
-      }
-     ],
-     [
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "PRIEST"
-      }
-     ],
-     [
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      }
-     ],
-     [
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "CART"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PRIEST"
-      }
-     ]
-    ],
-    "paddingPositions": [
-     144,
-     84,
-     221,
-     178,
-     35,
-     3
-    ],
-    "gameType": "freegame",
-    "anticipation": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   {
-    "index": 26,
-    "type": "updateGrid",
-    "gridMultipliers": [
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ]
-    ]
-   },
-   {
-    "index": 27,
-    "type": "setTotalWin",
-    "amount": 100
-   },
-   {
-    "index": 28,
-    "type": "updateFreeSpin",
-    "amount": 6,
-    "total": 10
-   },
-   {
-    "index": 29,
-    "type": "reveal",
-    "board": [
-     [
-      {
-       "name": "CART"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "CART"
-      }
-     ],
-     [
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "MOON",
-       "scatter": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      }
-     ],
-     [
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      }
-     ]
-    ],
-    "paddingPositions": [
-     44,
-     189,
-     212,
-     21,
-     244,
-     40
-    ],
-    "gameType": "freegame",
-    "anticipation": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   {
-    "index": 30,
-    "type": "updateGrid",
-    "gridMultipliers": [
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ]
-    ]
-   },
-   {
-    "index": 31,
-    "type": "setTotalWin",
-    "amount": 100
-   },
-   {
-    "index": 32,
-    "type": "updateFreeSpin",
-    "amount": 7,
-    "total": 10
-   },
-   {
-    "index": 33,
-    "type": "reveal",
-    "board": [
-     [
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PEASANT"
-      }
-     ],
-     [
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "CART"
-      }
-     ],
-     [
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "CART"
-      }
-     ]
-    ],
-    "paddingPositions": [
-     8,
-     126,
-     87,
-     242,
-     60,
-     205
-    ],
-    "gameType": "freegame",
-    "anticipation": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   {
-    "index": 34,
-    "type": "updateGrid",
-    "gridMultipliers": [
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ]
-    ]
-   },
-   {
-    "index": 35,
-    "type": "setTotalWin",
-    "amount": 100
-   },
-   {
-    "index": 36,
-    "type": "updateFreeSpin",
-    "amount": 8,
-    "total": 10
-   },
-   {
-    "index": 37,
-    "type": "reveal",
-    "board": [
-     [
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "STRAW"
-      }
-     ],
-     [
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "PRIEST"
-      }
-     ],
-     [
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "GUARD"
-      }
-     ],
-     [
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
-      }
-     ],
-     [
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "VLORD",
-       "wild": true
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PEASANT"
-      }
-     ],
-     [
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "SMITH"
-      }
-     ]
-    ],
-    "paddingPositions": [
-     182,
-     106,
-     119,
-     49,
-     4,
-     218
-    ],
-    "gameType": "freegame",
-    "anticipation": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   {
-    "index": 38,
-    "type": "updateGrid",
-    "gridMultipliers": [
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ],
-     [
-      0,
-      0,
-      0,
-      0,
-      0
-     ]
-    ]
-   },
-   {
-    "index": 39,
     "type": "winInfo",
-    "totalWin": 36,
+    "totalWin": 111,
     "wins": [
      {
-      "symbol": "BAKER",
-      "clusterSize": 5,
-      "win": 6,
+      "symbol": "PRIEST",
+      "clusterSize": 7,
+      "win": 100,
+      "positions": [
+       {
+        "reel": 0,
+        "row": 1
+       },
+       {
+        "reel": 1,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 0,
+        "row": 2
+       },
+       {
+        "reel": 0,
+        "row": 3
+       },
+       {
+        "reel": 0,
+        "row": 4
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 100,
+       "overlay": {
+        "reel": 1,
+        "row": 2
+       }
+      }
+     },
+     {
+      "symbol": "A",
+      "clusterSize": 7,
+      "win": 8,
       "positions": [
        {
         "reel": 3,
-        "row": 4
-       },
-       {
-        "reel": 4,
-        "row": 4
+        "row": 3
        },
        {
         "reel": 4,
@@ -4205,13 +3360,25 @@ export default [
        },
        {
         "reel": 4,
+        "row": 4
+       },
+       {
+        "reel": 5,
+        "row": 4
+       },
+       {
+        "reel": 4,
+        "row": 5
+       },
+       {
+        "reel": 3,
         "row": 5
        }
       ],
       "meta": {
        "globalMult": 1,
        "clusterMult": 1,
-       "winWithoutMult": 6,
+       "winWithoutMult": 8,
        "overlay": {
         "reel": 4,
         "row": 4
@@ -4219,21 +3386,13 @@ export default [
       }
      },
      {
-      "symbol": "FARMER",
-      "clusterSize": 6,
-      "win": 30,
+      "symbol": "K",
+      "clusterSize": 5,
+      "win": 2,
       "positions": [
        {
-        "reel": 2,
-        "row": 1
-       },
-       {
-        "reel": 3,
-        "row": 1
-       },
-       {
-        "reel": 4,
-        "row": 1
+        "reel": 5,
+        "row": 2
        },
        {
         "reel": 4,
@@ -4244,50 +3403,99 @@ export default [
         "row": 3
        },
        {
-        "reel": 3,
-        "row": 2
+        "reel": 4,
+        "row": 4
+       },
+       {
+        "reel": 5,
+        "row": 3
        }
       ],
       "meta": {
        "globalMult": 1,
        "clusterMult": 1,
-       "winWithoutMult": 30,
+       "winWithoutMult": 2,
        "overlay": {
+        "reel": 4,
+        "row": 3
+       }
+      }
+     },
+     {
+      "symbol": "J",
+      "clusterSize": 5,
+      "win": 1,
+      "positions": [
+       {
         "reel": 3,
         "row": 2
+       },
+       {
+        "reel": 4,
+        "row": 2
+       },
+       {
+        "reel": 4,
+        "row": 3
+       },
+       {
+        "reel": 4,
+        "row": 4
+       },
+       {
+        "reel": 3,
+        "row": 4
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 1,
+       "overlay": {
+        "reel": 4,
+        "row": 3
        }
       }
      }
     ]
    },
    {
-    "index": 40,
+    "index": 24,
     "type": "updateTumbleWin",
-    "amount": 36
+    "amount": 111
    },
    {
-    "index": 41,
+    "index": 25,
     "type": "vampireKillUpdate",
-    "killsAdded": 3,
-    "totalKills": 6
+    "killsAdded": 4,
+    "totalKills": 9
    },
    {
-    "index": 42,
+    "index": 26,
     "type": "tumbleBoard",
     "newSymbols": [
-     [],
-     [],
      [
       {
-       "name": "FARMER"
+       "name": "PRIEST"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "SMITH"
       }
      ],
      [
       {
-       "name": "SMITH"
-      },
+       "name": "PRIEST"
+      }
+     ],
+     [
       {
-       "name": "SMITH"
+       "name": "PRIEST"
       },
       {
        "name": "PRIEST"
@@ -4295,43 +3503,87 @@ export default [
      ],
      [
       {
-       "name": "BAKER"
+       "name": "PEASANT"
       },
       {
        "name": "PEASANT"
       },
       {
-       "name": "FARMER"
+       "name": "J"
       },
       {
-       "name": "FARMER"
-      },
-      {
-       "name": "VLORD",
-       "wild": true
+       "name": "J"
       }
      ],
-     []
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "FARMER"
+      }
+     ]
     ],
     "explodingSymbols": [
+     {
+      "reel": 0,
+      "row": 1
+     },
+     {
+      "reel": 0,
+      "row": 2
+     },
+     {
+      "reel": 0,
+      "row": 3
+     },
+     {
+      "reel": 0,
+      "row": 4
+     },
+     {
+      "reel": 1,
+      "row": 1
+     },
      {
       "reel": 2,
       "row": 1
      },
      {
-      "reel": 3,
-      "row": 4
+      "reel": 2,
+      "row": 2
      },
      {
       "reel": 3,
-      "row": 1
+      "row": 3
+     },
+     {
+      "reel": 3,
+      "row": 5
      },
      {
       "reel": 3,
       "row": 2
      },
      {
-      "reel": 4,
+      "reel": 3,
       "row": 4
      },
      {
@@ -4341,6 +3593,10 @@ export default [
      {
       "reel": 4,
       "row": 2
+     },
+     {
+      "reel": 4,
+      "row": 4
      },
      {
       "reel": 4,
@@ -4348,7 +3604,15 @@ export default [
      },
      {
       "reel": 4,
-      "row": 1
+      "row": 2
+     },
+     {
+      "reel": 4,
+      "row": 3
+     },
+     {
+      "reel": 4,
+      "row": 4
      },
      {
       "reel": 4,
@@ -4357,105 +3621,79 @@ export default [
      {
       "reel": 4,
       "row": 3
+     },
+     {
+      "reel": 4,
+      "row": 4
+     },
+     {
+      "reel": 5,
+      "row": 4
+     },
+     {
+      "reel": 5,
+      "row": 2
+     },
+     {
+      "reel": 5,
+      "row": 3
      }
     ]
    },
    {
-    "index": 43,
+    "index": 27,
     "type": "setWin",
-    "amount": 36,
-    "winLevel": 2
+    "amount": 111,
+    "winLevel": 3
    },
    {
-    "index": 44,
+    "index": 28,
     "type": "setTotalWin",
-    "amount": 136
+    "amount": 154
    },
    {
-    "index": 45,
+    "index": 29,
     "type": "updateFreeSpin",
-    "amount": 9,
-    "total": 10
+    "amount": 4,
+    "total": 20
    },
    {
-    "index": 46,
+    "index": 30,
     "type": "reveal",
     "board": [
      [
       {
+       "name": "GUARD"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
        "name": "PEASANT"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
       },
       {
        "name": "FARMER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "SMITH"
       }
      ],
      [
       {
-       "name": "STRAW"
+       "name": "K"
       },
       {
-       "name": "BAKER"
+       "name": "A"
       },
       {
-       "name": "BAKER"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "BAKER"
-      }
-     ],
-     [
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "PEASANT"
-      }
-     ],
-     [
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "SMITH"
+       "name": "VLORD",
+       "wild": true
       },
       {
        "name": "VLORD",
@@ -4465,21 +3703,283 @@ export default [
        "name": "SMITH"
       },
       {
-       "name": "CART"
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
       },
       {
        "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
       },
       {
        "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
       }
      ],
      [
       {
-       "name": "CART"
+       "name": "Q"
       },
       {
-       "name": "CART"
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "K"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     220,
+     40,
+     174,
+     125,
+     173,
+     207
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 31,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 32,
+    "type": "setTotalWin",
+    "amount": 154
+   },
+   {
+    "index": 33,
+    "type": "updateFreeSpin",
+    "amount": 5,
+    "total": 20
+   },
+   {
+    "index": 34,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "J"
       },
       {
        "name": "PEASANT"
@@ -4491,30 +3991,33 @@ export default [
        "name": "FARMER"
       },
       {
-       "name": "BAKER"
+       "name": "K"
       },
       {
-       "name": "STRAW"
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
       }
      ],
      [
       {
+       "name": "Q"
+      },
+      {
        "name": "PEASANT"
       },
       {
+       "name": "A"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
        "name": "FARMER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "GUARD"
-      },
-      {
-       "name": "GUARD"
       },
       {
        "name": "SMITH"
@@ -4522,12 +4025,588 @@ export default [
      ]
     ],
     "paddingPositions": [
-     243,
-     242,
-     246,
-     12,
+     115,
+     195,
+     37,
+     114,
+     179,
+     137
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 35,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 36,
+    "type": "winInfo",
+    "totalWin": 8,
+    "wins": [
+     {
+      "symbol": "A",
+      "clusterSize": 7,
+      "win": 8,
+      "positions": [
+       {
+        "reel": 0,
+        "row": 5
+       },
+       {
+        "reel": 1,
+        "row": 5
+       },
+       {
+        "reel": 2,
+        "row": 5
+       },
+       {
+        "reel": 3,
+        "row": 5
+       },
+       {
+        "reel": 4,
+        "row": 5
+       },
+       {
+        "reel": 2,
+        "row": 4
+       },
+       {
+        "reel": 2,
+        "row": 3
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 8,
+       "overlay": {
+        "reel": 2,
+        "row": 5
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 37,
+    "type": "updateTumbleWin",
+    "amount": 8
+   },
+   {
+    "index": 38,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      }
+     ],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 0,
+      "row": 5
+     },
+     {
+      "reel": 1,
+      "row": 5
+     },
+     {
+      "reel": 2,
+      "row": 5
+     },
+     {
+      "reel": 2,
+      "row": 4
+     },
+     {
+      "reel": 2,
+      "row": 3
+     },
+     {
+      "reel": 3,
+      "row": 5
+     },
+     {
+      "reel": 4,
+      "row": 5
+     }
+    ]
+   },
+   {
+    "index": 39,
+    "type": "setWin",
+    "amount": 8,
+    "winLevel": 1
+   },
+   {
+    "index": 40,
+    "type": "setTotalWin",
+    "amount": 162
+   },
+   {
+    "index": 41,
+    "type": "updateFreeSpin",
+    "amount": 6,
+    "total": 20
+   },
+   {
+    "index": 42,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "K"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     188,
+     205,
+     102,
      25,
-     215
+     205,
+     104
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 43,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 44,
+    "type": "setTotalWin",
+    "amount": 162
+   },
+   {
+    "index": 45,
+    "type": "updateFreeSpin",
+    "amount": 7,
+    "total": 20
+   },
+   {
+    "index": 46,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     226,
+     195,
+     60,
+     32,
+     142,
+     105
     ],
     "gameType": "freegame",
     "anticipation": [
@@ -4590,13 +4669,13 @@ export default [
    {
     "index": 48,
     "type": "setTotalWin",
-    "amount": 136
+    "amount": 162
    },
    {
     "index": 49,
     "type": "updateFreeSpin",
-    "amount": 10,
-    "total": 10
+    "amount": 8,
+    "total": 20
    },
    {
     "index": 50,
@@ -4604,128 +4683,33 @@ export default [
     "board": [
      [
       {
+       "name": "K"
+      },
+      {
+       "name": "Q"
+      },
+      {
        "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "A"
       },
       {
        "name": "FARMER"
       },
       {
-       "name": "BAKER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "SMITH"
+       "name": "FARMER"
       }
      ],
      [
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "GUARD"
-      }
-     ],
-     [
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "FARMER"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      }
-     ],
-     [
-      {
-       "name": "BAKER"
-      },
       {
        "name": "GUARD"
       },
       {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "BAKER"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "PEASANT"
-      }
-     ],
-     [
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
        "name": "SMITH"
-      },
-      {
-       "name": "PEASANT"
-      },
-      {
-       "name": "STRAW"
-      },
-      {
-       "name": "SMITH"
-      },
-      {
-       "name": "FARMER"
-      }
-     ],
-     [
-      {
-       "name": "PRIEST"
-      },
-      {
-       "name": "CART"
-      },
-      {
-       "name": "CART"
       },
       {
        "name": "SMITH"
@@ -4734,20 +4718,115 @@ export default [
        "name": "PRIEST"
       },
       {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
        "name": "SMITH"
       },
       {
-       "name": "CART"
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
       }
      ]
     ],
     "paddingPositions": [
-     243,
-     219,
-     174,
-     181,
-     195,
-     160
+     149,
+     87,
+     213,
+     112,
+     119,
+     84
     ],
     "gameType": "freegame",
     "anticipation": [
@@ -4809,6 +4888,894 @@ export default [
    },
    {
     "index": 52,
+    "type": "setTotalWin",
+    "amount": 162
+   },
+   {
+    "index": 53,
+    "type": "updateFreeSpin",
+    "amount": 9,
+    "total": 20
+   },
+   {
+    "index": 54,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      }
+     ],
+     [
+      {
+       "name": "Q"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PEASANT"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "Q"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     67,
+     234,
+     151,
+     185,
+     46,
+     206
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 55,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 56,
+    "type": "setTotalWin",
+    "amount": 162
+   },
+   {
+    "index": 57,
+    "type": "updateFreeSpin",
+    "amount": 10,
+    "total": 20
+   },
+   {
+    "index": 58,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "MOON",
+       "scatter": true
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     240,
+     6,
+     99,
+     35,
+     169,
+     148
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 59,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 60,
+    "type": "setTotalWin",
+    "amount": 162
+   },
+   {
+    "index": 61,
+    "type": "updateFreeSpin",
+    "amount": 11,
+    "total": 20
+   },
+   {
+    "index": 62,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PEASANT"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     19,
+     8,
+     187,
+     56,
+     41,
+     224
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 63,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 64,
+    "type": "setTotalWin",
+    "amount": 162
+   },
+   {
+    "index": 65,
+    "type": "updateFreeSpin",
+    "amount": 12,
+    "total": 20
+   },
+   {
+    "index": 66,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     183,
+     167,
+     122,
+     117,
+     38,
+     95
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 67,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 68,
     "type": "winInfo",
     "totalWin": 10,
     "wins": [
@@ -4816,6 +5783,341 @@ export default [
       "symbol": "FARMER",
       "clusterSize": 5,
       "win": 10,
+      "positions": [
+       {
+        "reel": 4,
+        "row": 3
+       },
+       {
+        "reel": 4,
+        "row": 2
+       },
+       {
+        "reel": 4,
+        "row": 4
+       },
+       {
+        "reel": 5,
+        "row": 4
+       },
+       {
+        "reel": 5,
+        "row": 5
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 10,
+       "overlay": {
+        "reel": 4,
+        "row": 4
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 69,
+    "type": "updateTumbleWin",
+    "amount": 10
+   },
+   {
+    "index": 70,
+    "type": "vampireKillUpdate",
+    "killsAdded": 4,
+    "totalKills": 13
+   },
+   {
+    "index": 71,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [],
+     [],
+     [],
+     [],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      }
+     ]
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 4,
+      "row": 3
+     },
+     {
+      "reel": 4,
+      "row": 2
+     },
+     {
+      "reel": 4,
+      "row": 4
+     },
+     {
+      "reel": 5,
+      "row": 4
+     },
+     {
+      "reel": 5,
+      "row": 5
+     }
+    ]
+   },
+   {
+    "index": 72,
+    "type": "setWin",
+    "amount": 10,
+    "winLevel": 2
+   },
+   {
+    "index": 73,
+    "type": "setTotalWin",
+    "amount": 172
+   },
+   {
+    "index": 74,
+    "type": "updateFreeSpin",
+    "amount": 13,
+    "total": 20
+   },
+   {
+    "index": 75,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "Q"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     56,
+     135,
+     199,
+     188,
+     105,
+     68
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 76,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 77,
+    "type": "winInfo",
+    "totalWin": 15,
+    "wins": [
+     {
+      "symbol": "SMITH",
+      "clusterSize": 5,
+      "win": 15,
       "positions": [
        {
         "reel": 0,
@@ -4826,8 +6128,8 @@ export default [
         "row": 1
        },
        {
-        "reel": 2,
-        "row": 1
+        "reel": 1,
+        "row": 2
        },
        {
         "reel": 2,
@@ -4835,49 +6137,49 @@ export default [
        },
        {
         "reel": 1,
-        "row": 2
+        "row": 3
        }
       ],
       "meta": {
        "globalMult": 1,
        "clusterMult": 1,
-       "winWithoutMult": 10,
+       "winWithoutMult": 15,
        "overlay": {
         "reel": 1,
-        "row": 1
+        "row": 2
        }
       }
      }
     ]
    },
    {
-    "index": 53,
+    "index": 78,
     "type": "updateTumbleWin",
-    "amount": 10
+    "amount": 15
    },
    {
-    "index": 54,
+    "index": 79,
     "type": "tumbleBoard",
     "newSymbols": [
      [
       {
-       "name": "CART"
+       "name": "J"
       }
      ],
      [
       {
-       "name": "PRIEST"
+       "name": "FARMER"
       },
       {
        "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
       }
      ],
      [
       {
-       "name": "PRIEST"
-      },
-      {
-       "name": "STRAW"
+       "name": "FARMER"
       }
      ],
      [],
@@ -4898,8 +6200,8 @@ export default [
       "row": 2
      },
      {
-      "reel": 2,
-      "row": 1
+      "reel": 1,
+      "row": 3
      },
      {
       "reel": 2,
@@ -4908,42 +6210,501 @@ export default [
     ]
    },
    {
-    "index": 55,
+    "index": 80,
+    "type": "setWin",
+    "amount": 15,
+    "winLevel": 2
+   },
+   {
+    "index": 81,
+    "type": "setTotalWin",
+    "amount": 187
+   },
+   {
+    "index": 82,
+    "type": "updateFreeSpin",
+    "amount": 14,
+    "total": 20
+   },
+   {
+    "index": 83,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     30,
+     88,
+     49,
+     93,
+     70,
+     87
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 84,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 85,
+    "type": "setTotalWin",
+    "amount": 187
+   },
+   {
+    "index": 86,
+    "type": "updateFreeSpin",
+    "amount": 15,
+    "total": 20
+   },
+   {
+    "index": 87,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "PEASANT"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     247,
+     185,
+     56,
+     145,
+     71,
+     187
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 88,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 89,
     "type": "winInfo",
-    "totalWin": 3,
+    "totalWin": 50,
     "wins": [
      {
-      "symbol": "PEASANT",
-      "clusterSize": 5,
-      "win": 3,
+      "symbol": "SMITH",
+      "clusterSize": 8,
+      "win": 50,
       "positions": [
        {
-        "reel": 2,
+        "reel": 0,
         "row": 2
        },
        {
-        "reel": 3,
+        "reel": 1,
         "row": 2
        },
        {
-        "reel": 3,
+        "reel": 1,
+        "row": 1
+       },
+       {
+        "reel": 1,
         "row": 3
        },
        {
-        "reel": 4,
-        "row": 3
+        "reel": 1,
+        "row": 4
+       },
+       {
+        "reel": 1,
+        "row": 5
        },
        {
         "reel": 2,
-        "row": 3
+        "row": 5
+       },
+       {
+        "reel": 3,
+        "row": 5
        }
       ],
       "meta": {
        "globalMult": 1,
        "clusterMult": 1,
-       "winWithoutMult": 3,
+       "winWithoutMult": 50,
        "overlay": {
-        "reel": 3,
+        "reel": 1,
         "row": 3
        }
       }
@@ -4951,30 +6712,2387 @@ export default [
     ]
    },
    {
-    "index": 56,
+    "index": 90,
     "type": "updateTumbleWin",
-    "amount": 13
+    "amount": 50
    },
    {
-    "index": 57,
+    "index": 91,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [
+      {
+       "name": "PEASANT"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PEASANT"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      }
+     ],
+     [],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 0,
+      "row": 2
+     },
+     {
+      "reel": 1,
+      "row": 2
+     },
+     {
+      "reel": 1,
+      "row": 1
+     },
+     {
+      "reel": 1,
+      "row": 3
+     },
+     {
+      "reel": 1,
+      "row": 4
+     },
+     {
+      "reel": 1,
+      "row": 5
+     },
+     {
+      "reel": 2,
+      "row": 5
+     },
+     {
+      "reel": 3,
+      "row": 5
+     }
+    ]
+   },
+   {
+    "index": 92,
+    "type": "setWin",
+    "amount": 50,
+    "winLevel": 2
+   },
+   {
+    "index": 93,
+    "type": "setTotalWin",
+    "amount": 237
+   },
+   {
+    "index": 94,
+    "type": "updateFreeSpin",
+    "amount": 16,
+    "total": 20
+   },
+   {
+    "index": 95,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ],
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "PEASANT"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     16,
+     55,
+     136,
+     187,
+     117,
+     110
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 96,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 97,
+    "type": "winInfo",
+    "totalWin": 115,
+    "wins": [
+     {
+      "symbol": "PRIEST",
+      "clusterSize": 6,
+      "win": 100,
+      "positions": [
+       {
+        "reel": 0,
+        "row": 4
+       },
+       {
+        "reel": 1,
+        "row": 4
+       },
+       {
+        "reel": 0,
+        "row": 3
+       },
+       {
+        "reel": 0,
+        "row": 2
+       },
+       {
+        "reel": 1,
+        "row": 2
+       },
+       {
+        "reel": 0,
+        "row": 5
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 100,
+       "overlay": {
+        "reel": 0,
+        "row": 3
+       }
+      }
+     },
+     {
+      "symbol": "SMITH",
+      "clusterSize": 5,
+      "win": 15,
+      "positions": [
+       {
+        "reel": 1,
+        "row": 3
+       },
+       {
+        "reel": 0,
+        "row": 3
+       },
+       {
+        "reel": 0,
+        "row": 2
+       },
+       {
+        "reel": 1,
+        "row": 2
+       },
+       {
+        "reel": 1,
+        "row": 4
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 15,
+       "overlay": {
+        "reel": 1,
+        "row": 3
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 98,
+    "type": "updateTumbleWin",
+    "amount": 115
+   },
+   {
+    "index": 99,
+    "type": "vampireKillUpdate",
+    "killsAdded": 2,
+    "totalKills": 15
+   },
+   {
+    "index": 100,
+    "type": "updateGlobalMult",
+    "globalMult": 2
+   },
+   {
+    "index": 101,
+    "type": "vampireLevelUp",
+    "level": 1,
+    "eliminatedSymbol": "PEASANT",
+    "freeSpinsAwarded": 2
+   },
+   {
+    "index": 102,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [],
+     [],
+     [],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 0,
+      "row": 4
+     },
+     {
+      "reel": 0,
+      "row": 3
+     },
+     {
+      "reel": 0,
+      "row": 2
+     },
+     {
+      "reel": 0,
+      "row": 5
+     },
+     {
+      "reel": 0,
+      "row": 3
+     },
+     {
+      "reel": 0,
+      "row": 2
+     },
+     {
+      "reel": 1,
+      "row": 4
+     },
+     {
+      "reel": 1,
+      "row": 2
+     },
+     {
+      "reel": 1,
+      "row": 3
+     },
+     {
+      "reel": 1,
+      "row": 2
+     },
+     {
+      "reel": 1,
+      "row": 4
+     }
+    ]
+   },
+   {
+    "index": 103,
+    "type": "setWin",
+    "amount": 115,
+    "winLevel": 3
+   },
+   {
+    "index": 104,
+    "type": "setTotalWin",
+    "amount": 352
+   },
+   {
+    "index": 105,
+    "type": "updateFreeSpin",
+    "amount": 17,
+    "total": 22
+   },
+   {
+    "index": 106,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "MOON",
+       "scatter": true
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "K"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     94,
+     146,
+     146,
+     207,
+     150,
+     237
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 107,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 108,
+    "type": "winInfo",
+    "totalWin": 100,
+    "wins": [
+     {
+      "symbol": "PRIEST",
+      "clusterSize": 6,
+      "win": 100,
+      "positions": [
+       {
+        "reel": 0,
+        "row": 3
+       },
+       {
+        "reel": 1,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 1,
+        "row": 1
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 100,
+       "overlay": {
+        "reel": 1,
+        "row": 2
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 109,
+    "type": "updateTumbleWin",
+    "amount": 100
+   },
+   {
+    "index": 110,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [],
+     [],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 0,
+      "row": 3
+     },
+     {
+      "reel": 1,
+      "row": 3
+     },
+     {
+      "reel": 1,
+      "row": 1
+     },
+     {
+      "reel": 2,
+      "row": 3
+     },
+     {
+      "reel": 2,
+      "row": 2
+     },
+     {
+      "reel": 2,
+      "row": 1
+     }
+    ]
+   },
+   {
+    "index": 111,
+    "type": "setWin",
+    "amount": 100,
+    "winLevel": 3
+   },
+   {
+    "index": 112,
+    "type": "setTotalWin",
+    "amount": 452
+   },
+   {
+    "index": 113,
+    "type": "updateFreeSpin",
+    "amount": 18,
+    "total": 22
+   },
+   {
+    "index": 114,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     163,
+     219,
+     196,
+     90,
+     113,
+     36
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 115,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 116,
+    "type": "winInfo",
+    "totalWin": 30,
+    "wins": [
+     {
+      "symbol": "FARMER",
+      "clusterSize": 6,
+      "win": 30,
+      "positions": [
+       {
+        "reel": 0,
+        "row": 2
+       },
+       {
+        "reel": 1,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 3,
+        "row": 1
+       },
+       {
+        "reel": 1,
+        "row": 1
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 30,
+       "overlay": {
+        "reel": 2,
+        "row": 1
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 117,
+    "type": "updateTumbleWin",
+    "amount": 30
+   },
+   {
+    "index": 118,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      }
+     ],
+     [],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 0,
+      "row": 2
+     },
+     {
+      "reel": 1,
+      "row": 2
+     },
+     {
+      "reel": 1,
+      "row": 1
+     },
+     {
+      "reel": 2,
+      "row": 2
+     },
+     {
+      "reel": 2,
+      "row": 1
+     },
+     {
+      "reel": 3,
+      "row": 1
+     }
+    ]
+   },
+   {
+    "index": 119,
+    "type": "setWin",
+    "amount": 30,
+    "winLevel": 2
+   },
+   {
+    "index": 120,
+    "type": "setTotalWin",
+    "amount": 482
+   },
+   {
+    "index": 121,
+    "type": "updateFreeSpin",
+    "amount": 19,
+    "total": 22
+   },
+   {
+    "index": 122,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     156,
+     36,
+     73,
+     233,
+     47,
+     219
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 123,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 124,
+    "type": "setTotalWin",
+    "amount": 482
+   },
+   {
+    "index": 125,
+    "type": "updateFreeSpin",
+    "amount": 20,
+    "total": 22
+   },
+   {
+    "index": 126,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "Q"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "SMITH"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     243,
+     75,
+     57,
+     54,
+     56,
+     230
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 127,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 128,
+    "type": "setTotalWin",
+    "amount": 482
+   },
+   {
+    "index": 129,
+    "type": "updateFreeSpin",
+    "amount": 21,
+    "total": 22
+   },
+   {
+    "index": 130,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "J"
+      }
+     ]
+    ],
+    "paddingPositions": [
+     90,
+     216,
+     212,
+     228,
+     164,
+     79
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 131,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 132,
+    "type": "winInfo",
+    "totalWin": 30,
+    "wins": [
+     {
+      "symbol": "FARMER",
+      "clusterSize": 6,
+      "win": 30,
+      "positions": [
+       {
+        "reel": 0,
+        "row": 5
+       },
+       {
+        "reel": 1,
+        "row": 5
+       },
+       {
+        "reel": 1,
+        "row": 4
+       },
+       {
+        "reel": 2,
+        "row": 4
+       },
+       {
+        "reel": 3,
+        "row": 4
+       },
+       {
+        "reel": 4,
+        "row": 4
+       }
+      ],
+      "meta": {
+       "globalMult": 1,
+       "clusterMult": 1,
+       "winWithoutMult": 30,
+       "overlay": {
+        "reel": 2,
+        "row": 4
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 133,
+    "type": "updateTumbleWin",
+    "amount": 30
+   },
+   {
+    "index": 134,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "K"
+      }
+     ],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 0,
+      "row": 5
+     },
+     {
+      "reel": 1,
+      "row": 5
+     },
+     {
+      "reel": 1,
+      "row": 4
+     },
+     {
+      "reel": 2,
+      "row": 4
+     },
+     {
+      "reel": 3,
+      "row": 4
+     },
+     {
+      "reel": 4,
+      "row": 4
+     }
+    ]
+   },
+   {
+    "index": 135,
+    "type": "setWin",
+    "amount": 30,
+    "winLevel": 2
+   },
+   {
+    "index": 136,
+    "type": "setTotalWin",
+    "amount": 512
+   },
+   {
+    "index": 137,
+    "type": "updateFreeSpin",
+    "amount": 22,
+    "total": 22
+   },
+   {
+    "index": 138,
+    "type": "reveal",
+    "board": [
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      }
+     ],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "J"
+      },
+      {
+       "name": "A"
+      }
+     ],
+     [
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "Q"
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "J"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "J"
+      }
+     ],
+     [
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "A"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "FARMER"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ]
+    ],
+    "paddingPositions": [
+     218,
+     194,
+     13,
+     205,
+     250,
+     40
+    ],
+    "gameType": "freegame",
+    "anticipation": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   {
+    "index": 139,
+    "type": "updateGrid",
+    "gridMultipliers": [
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ],
+     [
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    ]
+   },
+   {
+    "index": 140,
+    "type": "winInfo",
+    "totalWin": 60,
+    "wins": [
+     {
+      "symbol": "FARMER",
+      "clusterSize": 6,
+      "win": 60,
+      "positions": [
+       {
+        "reel": 4,
+        "row": 3
+       },
+       {
+        "reel": 5,
+        "row": 3
+       },
+       {
+        "reel": 5,
+        "row": 4
+       },
+       {
+        "reel": 5,
+        "row": 5
+       },
+       {
+        "reel": 4,
+        "row": 5
+       },
+       {
+        "reel": 4,
+        "row": 4
+       }
+      ],
+      "meta": {
+       "globalMult": 2,
+       "clusterMult": 1,
+       "winWithoutMult": 30,
+       "overlay": {
+        "reel": 4,
+        "row": 4
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 141,
+    "type": "updateTumbleWin",
+    "amount": 60
+   },
+   {
+    "index": 142,
+    "type": "vampireKillUpdate",
+    "killsAdded": 3,
+    "totalKills": 18
+   },
+   {
+    "index": 143,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [],
+     [],
+     [],
+     [],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "PRIEST"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ]
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 4,
+      "row": 3
+     },
+     {
+      "reel": 4,
+      "row": 5
+     },
+     {
+      "reel": 4,
+      "row": 4
+     },
+     {
+      "reel": 5,
+      "row": 3
+     },
+     {
+      "reel": 5,
+      "row": 4
+     },
+     {
+      "reel": 5,
+      "row": 5
+     }
+    ]
+   },
+   {
+    "index": 144,
+    "type": "winInfo",
+    "totalWin": 40,
+    "wins": [
+     {
+      "symbol": "GUARD",
+      "clusterSize": 5,
+      "win": 40,
+      "positions": [
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 3,
+        "row": 1
+       },
+       {
+        "reel": 4,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 3
+       }
+      ],
+      "meta": {
+       "globalMult": 2,
+       "clusterMult": 1,
+       "winWithoutMult": 20,
+       "overlay": {
+        "reel": 3,
+        "row": 2
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 145,
+    "type": "updateTumbleWin",
+    "amount": 100
+   },
+   {
+    "index": 146,
+    "type": "vampireKillUpdate",
+    "killsAdded": 4,
+    "totalKills": 22
+   },
+   {
+    "index": 147,
     "type": "tumbleBoard",
     "newSymbols": [
      [],
      [],
      [
       {
-       "name": "GUARD"
+       "name": "VLORD",
+       "wild": true
       },
       {
-       "name": "BAKER"
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "A"
       }
      ],
      [
       {
-       "name": "STRAW"
-      },
-      {
-       "name": "GUARD"
+       "name": "K"
       }
      ],
      [
@@ -4987,6 +9105,10 @@ export default [
     "explodingSymbols": [
      {
       "reel": 2,
+      "row": 1
+     },
+     {
+      "reel": 2,
       "row": 2
      },
      {
@@ -4995,39 +9117,253 @@ export default [
      },
      {
       "reel": 3,
+      "row": 1
+     },
+     {
+      "reel": 4,
+      "row": 1
+     }
+    ]
+   },
+   {
+    "index": 148,
+    "type": "winInfo",
+    "totalWin": 4,
+    "wins": [
+     {
+      "symbol": "A",
+      "clusterSize": 5,
+      "win": 4,
+      "positions": [
+       {
+        "reel": 1,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 3,
+        "row": 2
+       },
+       {
+        "reel": 3,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 1
+       }
+      ],
+      "meta": {
+       "globalMult": 2,
+       "clusterMult": 1,
+       "winWithoutMult": 2,
+       "overlay": {
+        "reel": 2,
+        "row": 2
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 149,
+    "type": "updateTumbleWin",
+    "amount": 104
+   },
+   {
+    "index": 150,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [],
+     [
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "VLORD",
+       "wild": true
+      },
+      {
+       "name": "VLORD",
+       "wild": true
+      }
+     ],
+     [
+      {
+       "name": "SMITH"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 1,
+      "row": 2
+     },
+     {
+      "reel": 2,
+      "row": 2
+     },
+     {
+      "reel": 2,
+      "row": 1
+     },
+     {
+      "reel": 3,
       "row": 2
      },
      {
       "reel": 3,
       "row": 3
-     },
-     {
-      "reel": 4,
-      "row": 3
      }
     ]
    },
    {
-    "index": 58,
+    "index": 151,
+    "type": "winInfo",
+    "totalWin": 60,
+    "wins": [
+     {
+      "symbol": "FARMER",
+      "clusterSize": 6,
+      "win": 60,
+      "positions": [
+       {
+        "reel": 1,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 2
+       },
+       {
+        "reel": 2,
+        "row": 1
+       },
+       {
+        "reel": 2,
+        "row": 3
+       },
+       {
+        "reel": 2,
+        "row": 4
+       },
+       {
+        "reel": 1,
+        "row": 3
+       }
+      ],
+      "meta": {
+       "globalMult": 2,
+       "clusterMult": 1,
+       "winWithoutMult": 30,
+       "overlay": {
+        "reel": 2,
+        "row": 3
+       }
+      }
+     }
+    ]
+   },
+   {
+    "index": 152,
+    "type": "updateTumbleWin",
+    "amount": 164
+   },
+   {
+    "index": 153,
+    "type": "vampireKillUpdate",
+    "killsAdded": 4,
+    "totalKills": 26
+   },
+   {
+    "index": 154,
+    "type": "tumbleBoard",
+    "newSymbols": [
+     [],
+     [
+      {
+       "name": "A"
+      },
+      {
+       "name": "PRIEST"
+      }
+     ],
+     [
+      {
+       "name": "GUARD"
+      },
+      {
+       "name": "K"
+      },
+      {
+       "name": "FARMER"
+      },
+      {
+       "name": "SMITH"
+      }
+     ],
+     [],
+     [],
+     []
+    ],
+    "explodingSymbols": [
+     {
+      "reel": 1,
+      "row": 2
+     },
+     {
+      "reel": 1,
+      "row": 3
+     },
+     {
+      "reel": 2,
+      "row": 2
+     },
+     {
+      "reel": 2,
+      "row": 1
+     },
+     {
+      "reel": 2,
+      "row": 3
+     },
+     {
+      "reel": 2,
+      "row": 4
+     }
+    ]
+   },
+   {
+    "index": 155,
     "type": "setWin",
-    "amount": 13,
-    "winLevel": 2
+    "amount": 164,
+    "winLevel": 3
    },
    {
-    "index": 59,
+    "index": 156,
     "type": "setTotalWin",
-    "amount": 149
+    "amount": 676
    },
    {
-    "index": 60,
+    "index": 157,
     "type": "freeSpinEnd",
-    "amount": 149,
-    "winLevel": 2
+    "amount": 643,
+    "winLevel": 3
    },
    {
-    "index": 61,
+    "index": 158,
     "type": "finalWin",
-    "amount": 149
+    "amount": 676
    }
   ]
  }

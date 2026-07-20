@@ -11,12 +11,16 @@
 
 	import { getContext } from '../game/context';
 	import { SYMBOL_SIZE } from '../game/constants';
-	import { anchorToPivot, BitmapText, Container, Sprite, type Sizes } from 'pixi-svelte';
+	import { anchorToPivot, BitmapText, Container, Rectangle, type Sizes } from 'pixi-svelte';
 
 	const context = getContext();
-	const PANEL_KEY_DESKTOP = 'Frame_FSCounter.png';
+	const GOTHIC_RED = 0xc41e3a;
+	const PANEL_FILL = 0x1a0505;
+	// Placeholder dark/blood panel standing in for the old mining Frame_FSCounter.png
+	// sprite (still registered under the reelsFrame spritesheet, see assets.ts) until
+	// real generated art lands. To swap back: replace the <Rectangle> below with
+	// <Sprite key="Frame_FSCounter.png" {...panelSizes} />.
 	const PANEL_RATIO_DESKTOP = 824 / 622;
-	const panelKey = PANEL_KEY_DESKTOP;
 	const panelWidth = $derived(SYMBOL_SIZE * 2);
 	const panelSizes = $derived({
 		width: panelWidth,
@@ -60,7 +64,15 @@
 
 <MainContainer>
 	<FadeContainer {show} {...position} {scale}>
-		<Sprite key={panelKey} {...panelSizes} />
+		<Rectangle
+			{...panelSizes}
+			borderRadius={panelSizes.height * 0.15}
+			backgroundColor={PANEL_FILL}
+			backgroundAlpha={0.88}
+			borderColor={GOTHIC_RED}
+			borderWidth={2}
+			borderAlpha={0.75}
+		/>
 		<Container
 			x={panelSizes.width * 0.5}
 			y={panelSizes.height * 0.48}

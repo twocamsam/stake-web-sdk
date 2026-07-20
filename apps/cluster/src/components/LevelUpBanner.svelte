@@ -69,7 +69,7 @@
 				onresize={(sizes) => (levelSizes = sizes)}
 			/>
 			<BitmapText
-				text={`${eliminatedSymbol} ELIMINATED`}
+				text={`${eliminatedSymbol} HUNTED`}
 				anchor={{ x: 0.5, y: 0 }}
 				{...eliminatedPosition}
 				style={{

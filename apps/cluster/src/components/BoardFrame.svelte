@@ -1,82 +1,36 @@
-<script lang="ts" module>
-	export type EmitterEventBoardFrame =
-		| { type: 'boardFrameGlowShow' }
-		| { type: 'boardFrameGlowHide' };
-</script>
-
 <script lang="ts">
-	import { Sprite, SpineProvider, SpineTrack } from 'pixi-svelte';
+	import { Sprite } from 'pixi-svelte';
 
 	import { getContext } from '../game/context';
 
 	const context = getContext();
-	const SPINE_SCALE = { width: 0.6, height: 0.6 };
-	const SPRITE_SCALE = { width: 1.07, height: 1.19 };
-	const BG_RATIO = 937 / 806;
 	const POSITION_ADJUSTMENT = 1.01;
 
-	type AnimationName = 'reelhouse_glow_start' | 'reelhouse_glow_idle' | 'reelhouse_glow_exit';
-
-	let animationName = $state<AnimationName | undefined>(undefined);
-	let loop = $state(false);
-
-	context.eventEmitter.subscribeOnMount({
-		boardFrameGlowShow: () => {
-			animationName = 'reelhouse_glow_start';
-			loop = false;
-		},
-		boardFrameGlowHide: () => {
-			if (animationName) animationName = 'reelhouse_glow_exit';
-		},
+	// Bloodcount real art: boardPanel.png (1122x1402, portrait) replaces the old
+	// frame_bg.png/frame_edge.png pair (a single image now, not a bg+edge duo).
+	// "cover" fit around the board area with a little breathing room, preserving
+	// the new art's own aspect ratio rather than the old landscape BG_RATIO.
+	const BOARD_PANEL_NATIVE = { width: 1122, height: 1402 };
+	const PANEL_COVER_MARGIN = 1.08;
+	const panelSizes = $derived.by(() => {
+		const boardLayout = context.stateGameDerived.boardLayout();
+		const scale =
+			Math.max(
+				boardLayout.width / BOARD_PANEL_NATIVE.width,
+				boardLayout.height / BOARD_PANEL_NATIVE.height,
+			) * PANEL_COVER_MARGIN;
+		return {
+			width: BOARD_PANEL_NATIVE.width * scale,
+			height: BOARD_PANEL_NATIVE.height * scale,
+		};
 	});
 </script>
 
-{#if animationName}
-	<SpineProvider
-		zIndex={-1}
-		key="reelhouse"
-		x={context.stateGameDerived.boardLayout().x * POSITION_ADJUSTMENT}
-		y={context.stateGameDerived.boardLayout().y * POSITION_ADJUSTMENT}
-		width={context.stateGameDerived.boardLayout().width * SPINE_SCALE.width}
-		height={context.stateGameDerived.boardLayout().height * SPINE_SCALE.height}
-	>
-		<SpineTrack
-			trackIndex={0}
-			{animationName}
-			{loop}
-			listener={{
-				complete: (entry) => {
-					if (entry.animation) {
-						if (entry.animation.name === 'reelhouse_glow_start') {
-							animationName = 'reelhouse_glow_idle';
-							loop = true;
-						}
-
-						if (entry.animation.name === 'reelhouse_glow_exit') {
-							animationName = undefined;
-							loop = false;
-						}
-					}
-				},
-			}}
-		/>
-	</SpineProvider>
-{/if}
-
 <Sprite
-	key="frame_bg.png"
+	key="boardPanel"
 	anchor={0.5}
 	x={context.stateGameDerived.boardLayout().x * POSITION_ADJUSTMENT}
 	y={context.stateGameDerived.boardLayout().y * POSITION_ADJUSTMENT}
-	width={context.stateGameDerived.boardLayout().width * BG_RATIO * SPRITE_SCALE.width}
-	height={context.stateGameDerived.boardLayout().width * SPRITE_SCALE.height}
-/>
-
-<Sprite
-	key="frame_edge.png"
-	anchor={0.5}
-	x={context.stateGameDerived.boardLayout().x * POSITION_ADJUSTMENT}
-	y={context.stateGameDerived.boardLayout().y * POSITION_ADJUSTMENT}
-	width={context.stateGameDerived.boardLayout().width * BG_RATIO * SPRITE_SCALE.width}
-	height={context.stateGameDerived.boardLayout().width * SPRITE_SCALE.height}
+	width={panelSizes.width}
+	height={panelSizes.height}
 />

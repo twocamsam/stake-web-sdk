@@ -102,100 +102,56 @@ export default {
 		},
 	},
 	// ============================================================================
-	// BLOODCOUNT symbol slots — placeholder art, borrowed from the mining theme
+	// BLOODCOUNT symbol slots — real static art
 	// ============================================================================
-	// The 10 entries below are the real Bloodcount symbols (5 high, 4 low, 1 scatter).
-	// Each currently borrows another symbol's spine skeleton wholesale (same atlas +
-	// skeleton URL as its source, just registered under this new key) purely so the
-	// game has *something* to render before final art exists.
+	// The 11 entries below are the real Bloodcount symbols (5 high, 5 low/royal, 1
+	// scatter). Each is a standalone 512x512 transparent-padded PNG (not a spine
+	// skeleton), living in static/assets/sprites/bloodcount/ and registered the
+	// same way `payFrame` registers its single PNG below: `{ type: 'sprite', src }`.
 	//
-	// Borrow map (symbol -> source, same skeleton reused as-is):
-	//   VLORD  -> H1 (h1.json)   PRIEST -> H2 (h2.json)   GUARD -> H3 (h3.json)
-	//   SMITH  -> H4 (h4.json)   FARMER -> H5 (h5.json)
-	//   BAKER  -> L1 (l1.json)   MILLER -> L2 (l2.json)   STRAW -> L3 (l3.json)
-	//   CART   -> L4 (l4.json)
-	//   MOON   -> S  (S.json, the scatter)
+	// Symbol -> file (all under assets/sprites/bloodcount/):
+	//   VLORD.png  PRIEST.png  GUARD.png  SMITH.png  FARMER.png
+	//   PEASANT.png A.png  K.png  Q.png  J.png
+	//   MOON.png (scatter)
 	//
-	// TO SWAP IN REAL ART: change only the `atlas`/`skeleton` (or `src`, for a plain
-	// sprite) values below for the symbol being replaced — the key name, and every
-	// reference to it in constants.ts's SYMBOL_INFO_MAP, stays the same.
+	// NOTE: the math redesign removed BAKER/STRAW/CART entirely (replaced by the
+	// four royal-paying symbols A/K/Q/J) and separately renamed MILLER -> PEASANT.
+	// MILLER is left registered-but-dormant below (harmless, book data will never
+	// reference it again); BAKER/STRAW/CART were removed outright since the math
+	// will never reference them again either.
 	//
-	// Expected format per symbol:
-	//   - Spine (current format): `{ type: 'spine', src: { atlas, skeleton, scale } }`.
-	//     The skeleton needs an animation matching whatever `animationName` the
-	//     symbol's SYMBOL_INFO_MAP entry asks for per state (currently: the win
-	//     animation reuses its borrowed source's name, e.g. VLORD plays 'h1'; MOON
-	//     plays 'scatter_spin'/'scatter_win'/'scatter_land'; 'explosion' is shared
-	//     by everyone and does not need to change).
-	//   - Static sprite (also supported): Symbol.svelte picks a <SymbolSprite> or
-	//     <SymbolSpine> purely based on whether SYMBOL_INFO_MAP's entry for that
-	//     state is `{ type: 'sprite', assetKey, sizeRatios }` or `{ type: 'spine',
-	//     ... }`. H/L-type static/spin/land frames are already sprites today (see
-	//     h1Static..l4Static in constants.ts, sourced from the shared
-	//     `symbolsStatic` sprite sheet below) — real art for those three states can
-	//     just be new frames added to that same sprite sheet, no assets.ts change
-	//     needed. Only `win`/`explosion` (and, for MOON, `spin`/`land` too, since it
-	//     mirrors the scatter) are real spine tracks that live here.
+	// TO SWAP IN NEWER ART: replace the PNG file in
+	// static/assets/sprites/bloodcount/ (same filename) — no code change needed.
+	// To rename a file, update the `src` URL below AND the matching `assetKey` in
+	// constants.ts's SYMBOL_INFO_MAP for that symbol (static/spin/land/win/
+	// postWinStatic all point at the same key). `explosion` is a separate shared
+	// spine effect used by every symbol and is untouched by any of this.
 	//
-	// AVOIDING THE DUPLICATE-KEY ATLAS HAZARD: during the book-event stall
-	// investigation we found `assetLoad.ts`'s spine loader re-parses
-	// `readSkeletonData()` separately for every manifest key, even when two keys
-	// point at the identical atlas+skeleton URLs (as all 10 entries below do today,
-	// borrowing H1-H5/L1-L4/S's files verbatim). That was ruled out as the cause of
-	// the specific stall we chased, but it's still an unnecessary shared-atlas
-	// re-parse with no real benefit. When repointing a symbol to real art, give it
-	// its OWN dedicated atlas + skeleton file pair (a unique URL, not shared with
-	// any other registered key) rather than pointing two keys at the same file —
-	// that sidesteps the hazard entirely rather than relying on it happening to be
-	// harmless.
+	// AVOIDING THE DUPLICATE-KEY ATLAS HAZARD (see the stall investigation): this
+	// no longer applies now that these are plain sprites, not spine skeletons — but
+	// if a symbol ever moves to spine art again, give it its own dedicated
+	// atlas+skeleton file pair rather than sharing a URL with another key.
 	VLORD: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/h1.json', import.meta.url).href,
-			scale: 2,
-		},
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/VLORD.png', import.meta.url).href,
 	},
 	PRIEST: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/h2.json', import.meta.url).href,
-			scale: 2,
-		},
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/PRIEST.png', import.meta.url).href,
 	},
 	GUARD: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/h3.json', import.meta.url).href,
-			scale: 2,
-		},
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/GUARD.png', import.meta.url).href,
 	},
 	SMITH: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/h4.json', import.meta.url).href,
-			scale: 2,
-		},
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/SMITH.png', import.meta.url).href,
 	},
 	FARMER: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/h5.json', import.meta.url).href,
-			scale: 2,
-		},
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/FARMER.png', import.meta.url).href,
 	},
-	BAKER: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/l1.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
+	// dormant: math renamed this symbol to PEASANT (see PEASANT below); no longer referenced by book data
 	MILLER: {
 		type: 'spine',
 		src: {
@@ -204,33 +160,57 @@ export default {
 			scale: 2,
 		},
 	},
-	STRAW: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/l3.json', import.meta.url).href,
-			scale: 2,
-		},
+	PEASANT: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/PEASANT.png', import.meta.url).href,
 	},
-	CART: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols/symbols.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols/l4.json', import.meta.url).href,
-			scale: 2,
-		},
+	A: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/A.png', import.meta.url).href,
+	},
+	K: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/K.png', import.meta.url).href,
+	},
+	Q: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/Q.png', import.meta.url).href,
+	},
+	J: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/J.png', import.meta.url).href,
 	},
 	MOON: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/symbols2/symbols2.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/symbols2/S.json', import.meta.url).href,
-			scale: 2,
-		},
+		type: 'sprite',
+		src: new URL('../../assets/sprites/bloodcount/MOON.png', import.meta.url).href,
 	},
 	// ============================================================================
 	// end BLOODCOUNT symbol slots
 	// ============================================================================
+	// KillMeterRail portraits: circular 256x256 crops of the 5 human targets, used
+	// by the side-rail blood-meter (see KillMeterRail.svelte) instead of the board
+	// symbol art above. Same elimination-order roster minus VLORD (the hunter, not
+	// a target) plus PRIEST (never eliminated, but still shown on the rail).
+	peasantPortrait: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/portraits/PEASANT_portrait.png', import.meta.url).href,
+	},
+	farmerPortrait: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/portraits/FARMER_portrait.png', import.meta.url).href,
+	},
+	smithPortrait: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/portraits/SMITH_portrait.png', import.meta.url).href,
+	},
+	guardPortrait: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/portraits/GUARD_portrait.png', import.meta.url).href,
+	},
+	priestPortrait: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/portraits/PRIEST_portrait.png', import.meta.url).href,
+	},
 	explosion: {
 		type: 'spine',
 		src: {
@@ -254,6 +234,27 @@ export default {
 	payFrame: {
 		type: 'sprite',
 		src: new URL('../../assets/sprites/payFrame/payFrame.png', import.meta.url).href,
+	},
+	// Bloodcount real art: gothic village night scene (replaces the mining
+	// foregroundAnimation/foregroundFeatureAnimation spine backgrounds) and the
+	// dark board panel (replaces frame_bg.png/frame_edge.png).
+	backgroundVillage: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/backgroundVillage/backgroundVillage.png', import.meta.url)
+			.href,
+		preload: true,
+	},
+	boardPanel: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/boardPanel/boardPanel.png', import.meta.url).href,
+		preload: true,
+	},
+	// Soft radial-gradient glow, white so it can be tinted per-particle at runtime.
+	// Used by EmberBorder.svelte's fire-particle effect (see below).
+	emberParticle: {
+		type: 'sprite',
+		src: new URL('../../assets/sprites/emberParticle/ember.png', import.meta.url).href,
+		preload: true,
 	},
 	anticipation: {
 		type: 'spine',
@@ -350,14 +351,6 @@ export default {
 		src: {
 			atlas: new URL('../../assets/spines/tumbleWin/tumble_win.atlas', import.meta.url).href,
 			skeleton: new URL('../../assets/spines/tumbleWin/tumble_win.json', import.meta.url).href,
-			scale: 2,
-		},
-	},
-	reelhouse: {
-		type: 'spine',
-		src: {
-			atlas: new URL('../../assets/spines/reelhouse/reelhouse_glow.atlas', import.meta.url).href,
-			skeleton: new URL('../../assets/spines/reelhouse/reelhouse_glow.json', import.meta.url).href,
 			scale: 2,
 		},
 	},

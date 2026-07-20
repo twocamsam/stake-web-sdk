@@ -2,7 +2,28 @@ import _ from 'lodash';
 
 import type { RawSymbol, SymbolState } from './types';
 
-export const SYMBOL_SIZE = 80;
+// Vertical cell pitch (row height). Reduced from 80 so the full board + header
+// fits with margin above the HUD - every UI element sized relative to
+// SYMBOL_SIZE shrinks proportionally along with it.
+export const SYMBOL_SIZE = 68;
+
+// Cell width:height ratio. Circular/portrait Bloodcount art reads better
+// slightly narrower than tall; the square symbol art in progress will use 1.0.
+// Change this one constant when that art lands - CELL_WIDTH and the render
+// dimensions below derive from it automatically.
+export const CELL_ASPECT = 0.78;
+// Horizontal cell pitch (reel spacing), derived from CELL_ASPECT.
+export const CELL_WIDTH = SYMBOL_SIZE * CELL_ASPECT;
+
+// Fraction of each cell the rendered card fills. Near 1 = cells tile almost
+// edge-to-edge; the cards' own frames (once real card art lands) provide the
+// visual separation instead of empty gutter space.
+export const CELL_FILL = 0.97;
+// Single source of truth for on-board symbol render size - see SymbolSprite.svelte.
+// Every symbol uses these exact numbers regardless of source art size or any
+// per-symbol data, so uniformity holds by construction.
+export const SYMBOL_RENDER_WIDTH = CELL_WIDTH * CELL_FILL;
+export const SYMBOL_RENDER_HEIGHT = SYMBOL_SIZE * CELL_FILL;
 
 export const REEL_PADDING = 0.53;
 
@@ -151,7 +172,7 @@ export const INITIAL_BOARD: RawSymbol[][] = [
 export const BOARD_DIMENSIONS = { x: INITIAL_BOARD.length, y: INITIAL_BOARD[0].length - 2 };
 
 export const BOARD_SIZES = {
-	width: SYMBOL_SIZE * BOARD_DIMENSIONS.x,
+	width: CELL_WIDTH * BOARD_DIMENSIONS.x,
 	height: SYMBOL_SIZE * BOARD_DIMENSIONS.y,
 };
 
@@ -257,6 +278,22 @@ const m10Static = { type: 'sprite', assetKey: 'm3_10x.png', sizeRatios: { width:
 
 const wSizeRatios = { width: 1.5 * 0.9, height: SPECIAL_SYMBOL_SIZE * 1.15 };
 const sSizeRatios = { width: 2.5, height: SPECIAL_SYMBOL_SIZE * 2.3 };
+
+// Bloodcount real art: each is its own standalone 512x512 sprite (see assets.ts),
+// registered directly under the symbol's own key rather than a shared sheet frame.
+// All symbols share the exact same sizeRatios so every one renders at the same
+// size on the board — no per-symbol size drift inherited from the old mining art.
+const vlordStatic = { type: 'sprite', assetKey: 'VLORD', sizeRatios: { width: 1, height: 1 } };
+const priestStatic = { type: 'sprite', assetKey: 'PRIEST', sizeRatios: { width: 1, height: 1 } };
+const guardStatic = { type: 'sprite', assetKey: 'GUARD', sizeRatios: { width: 1, height: 1 } };
+const smithStatic = { type: 'sprite', assetKey: 'SMITH', sizeRatios: { width: 1, height: 1 } };
+const farmerStatic = { type: 'sprite', assetKey: 'FARMER', sizeRatios: { width: 1, height: 1 } };
+const peasantStatic = { type: 'sprite', assetKey: 'PEASANT', sizeRatios: { width: 1, height: 1 } };
+const aStatic = { type: 'sprite', assetKey: 'A', sizeRatios: { width: 1, height: 1 } };
+const kStatic = { type: 'sprite', assetKey: 'K', sizeRatios: { width: 1, height: 1 } };
+const qStatic = { type: 'sprite', assetKey: 'Q', sizeRatios: { width: 1, height: 1 } };
+const jStatic = { type: 'sprite', assetKey: 'J', sizeRatios: { width: 1, height: 1 } };
+const moonStatic = { type: 'sprite', assetKey: 'MOON', sizeRatios: { width: 1, height: 1 } };
 
 export const SYMBOL_INFO_MAP = {
 	H1: {
@@ -413,82 +450,45 @@ export const SYMBOL_INFO_MAP = {
 	},
 	VLORD: {
 		explosion,
-		win: {
-			type: 'spine',
-			assetKey: 'VLORD',
-			animationName: 'h1',
-			sizeRatios: { width: 0.5 * 1.15, height: HIGH_SYMBOL_SIZE * 0.57 },
-		},
-		postWinStatic: h1Static,
-		static: h1Static,
-		spin: h1Static,
-		land: h1Static,
+		win: vlordStatic,
+		postWinStatic: vlordStatic,
+		static: vlordStatic,
+		spin: vlordStatic,
+		land: vlordStatic,
 	},
 	PRIEST: {
 		explosion,
-		win: {
-			type: 'spine',
-			assetKey: 'PRIEST',
-			animationName: 'h2',
-			sizeRatios: { width: 0.5, height: HIGH_SYMBOL_SIZE * 0.57 },
-		},
-		postWinStatic: h2Static,
-		static: h2Static,
-		spin: h2Static,
-		land: h2Static,
+		win: priestStatic,
+		postWinStatic: priestStatic,
+		static: priestStatic,
+		spin: priestStatic,
+		land: priestStatic,
 	},
 	GUARD: {
 		explosion,
-		win: {
-			type: 'spine',
-			assetKey: 'GUARD',
-			animationName: 'h3',
-			sizeRatios: { width: 0.5 * 0.9, height: HIGH_SYMBOL_SIZE * 0.53 },
-		},
-		postWinStatic: h3Static,
-		static: h3Static,
-		spin: h3Static,
-		land: h3Static,
+		win: guardStatic,
+		postWinStatic: guardStatic,
+		static: guardStatic,
+		spin: guardStatic,
+		land: guardStatic,
 	},
 	SMITH: {
 		explosion,
-		win: {
-			type: 'spine',
-			assetKey: 'SMITH',
-			animationName: 'h4',
-			sizeRatios: { width: 0.5 * 0.9, height: HIGH_SYMBOL_SIZE * 0.53 },
-		},
-		postWinStatic: h4Static,
-		static: h4Static,
-		spin: h4Static,
-		land: h4Static,
+		win: smithStatic,
+		postWinStatic: smithStatic,
+		static: smithStatic,
+		spin: smithStatic,
+		land: smithStatic,
 	},
 	FARMER: {
 		explosion,
-		win: {
-			type: 'spine',
-			assetKey: 'FARMER',
-			animationName: 'h5',
-			sizeRatios: { width: 0.5 * 0.9, height: HIGH_SYMBOL_SIZE * 0.53 },
-		},
-		postWinStatic: h5Static,
-		static: h5Static,
-		spin: h5Static,
-		land: h5Static,
+		win: farmerStatic,
+		postWinStatic: farmerStatic,
+		static: farmerStatic,
+		spin: farmerStatic,
+		land: farmerStatic,
 	},
-	BAKER: {
-		explosion,
-		win: {
-			type: 'spine',
-			assetKey: 'BAKER',
-			animationName: 'l1',
-			sizeRatios: { width: 0.5 * 0.75, height: LOW_SYMBOL_SIZE * 0.65 },
-		},
-		postWinStatic: l1Static,
-		static: l1Static,
-		spin: l1Static,
-		land: l1Static,
-	},
+	// dormant: math renamed this symbol to PEASANT; no longer referenced by book data
 	MILLER: {
 		explosion,
 		win: {
@@ -502,49 +502,53 @@ export const SYMBOL_INFO_MAP = {
 		spin: l2Static,
 		land: l2Static,
 	},
-	STRAW: {
+	PEASANT: {
 		explosion,
-		win: {
-			type: 'spine',
-			assetKey: 'STRAW',
-			animationName: 'l3',
-			sizeRatios: { width: 0.5 * 0.75, height: LOW_SYMBOL_SIZE * 0.63 },
-		},
-		postWinStatic: l3Static,
-		static: l3Static,
-		spin: l3Static,
-		land: l3Static,
+		win: peasantStatic,
+		postWinStatic: peasantStatic,
+		static: peasantStatic,
+		spin: peasantStatic,
+		land: peasantStatic,
 	},
-	CART: {
+	A: {
 		explosion,
-		win: {
-			type: 'spine',
-			assetKey: 'CART',
-			animationName: 'l4',
-			sizeRatios: { width: 0.5 * 0.75, height: LOW_SYMBOL_SIZE * 0.63 },
-		},
-		postWinStatic: l4Static,
-		static: l4Static,
-		spin: l4Static,
-		land: l4Static,
+		win: aStatic,
+		postWinStatic: aStatic,
+		static: aStatic,
+		spin: aStatic,
+		land: aStatic,
+	},
+	K: {
+		explosion,
+		win: kStatic,
+		postWinStatic: kStatic,
+		static: kStatic,
+		spin: kStatic,
+		land: kStatic,
+	},
+	Q: {
+		explosion,
+		win: qStatic,
+		postWinStatic: qStatic,
+		static: qStatic,
+		spin: qStatic,
+		land: qStatic,
+	},
+	J: {
+		explosion,
+		win: jStatic,
+		postWinStatic: jStatic,
+		static: jStatic,
+		spin: jStatic,
+		land: jStatic,
 	},
 	MOON: {
 		explosion,
-		postWinStatic: sStatic,
-		static: sStatic,
-		spin: {
-			type: 'spine',
-			assetKey: 'MOON',
-			animationName: 'scatter_spin',
-			sizeRatios: sSizeRatios,
-		},
-		win: { type: 'spine', assetKey: 'MOON', animationName: 'scatter_win', sizeRatios: sSizeRatios },
-		land: {
-			type: 'spine',
-			assetKey: 'MOON',
-			animationName: 'scatter_land',
-			sizeRatios: sSizeRatios,
-		},
+		win: moonStatic,
+		postWinStatic: moonStatic,
+		static: moonStatic,
+		spin: moonStatic,
+		land: moonStatic,
 	},
 } as const;
 

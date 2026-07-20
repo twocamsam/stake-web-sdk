@@ -2,7 +2,7 @@
 	import { Sprite, type SpriteProps } from 'pixi-svelte';
 
 	import { getSymbolInfo } from '../game/utils';
-	import { SYMBOL_SIZE } from '../game/constants';
+	import { SYMBOL_RENDER_WIDTH, SYMBOL_RENDER_HEIGHT } from '../game/constants';
 	import { onMount } from 'svelte';
 
 	type Props = {
@@ -29,6 +29,6 @@
 	y={props.y}
 	anchor={0.5}
 	key={props.symbolInfo.assetKey}
-	width={SYMBOL_SIZE * props.symbolInfo.sizeRatios.width}
-	height={SYMBOL_SIZE * props.symbolInfo.sizeRatios.height}
+	width={SYMBOL_RENDER_WIDTH}
+	height={SYMBOL_RENDER_HEIGHT}
 />
